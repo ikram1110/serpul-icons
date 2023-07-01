@@ -1,6 +1,6 @@
 {
   "name": "serpul-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Icon Set for PPOB Apps",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "url": "git+https://github.com/ikram1110/serpul-icons.git"
   },
   "keywords": [
-    "serpul-icon", "serpul", "icon", "icon set", "icon pack", "icon library"
+    "serpul-icon",
+    "serpul",
+    "icon",
+    "icon set",
+    "icon pack",
+    "icon library"
   ],
   "author": "Asrarul Ikram",
   "license": "ISC",
