@@ -1,0 +1,5875 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?f78btw');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?f78btw#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?f78btw') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?f78btw') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?f78btw##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sp-"], [class*=" sp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sp-activity-heart {
+  &:before {
+    content: $sp-activity-heart; 
+  }
+}
+.sp-activity {
+  &:before {
+    content: $sp-activity; 
+  }
+}
+.sp-airplay {
+  &:before {
+    content: $sp-airplay; 
+  }
+}
+.sp-airpods {
+  &:before {
+    content: $sp-airpods; 
+  }
+}
+.sp-alarm-clock-check {
+  &:before {
+    content: $sp-alarm-clock-check; 
+  }
+}
+.sp-alarm-clock-minus {
+  &:before {
+    content: $sp-alarm-clock-minus; 
+  }
+}
+.sp-alarm-clock-off {
+  &:before {
+    content: $sp-alarm-clock-off; 
+  }
+}
+.sp-alarm-clock-plus {
+  &:before {
+    content: $sp-alarm-clock-plus; 
+  }
+}
+.sp-alarm-clock {
+  &:before {
+    content: $sp-alarm-clock; 
+  }
+}
+.sp-alert-circle {
+  &:before {
+    content: $sp-alert-circle; 
+  }
+}
+.sp-alert-hexagon {
+  &:before {
+    content: $sp-alert-hexagon; 
+  }
+}
+.sp-alert-octagon {
+  &:before {
+    content: $sp-alert-octagon; 
+  }
+}
+.sp-alert-square {
+  &:before {
+    content: $sp-alert-square; 
+  }
+}
+.sp-alert-triangle {
+  &:before {
+    content: $sp-alert-triangle; 
+  }
+}
+.sp-align-bottom-01 {
+  &:before {
+    content: $sp-align-bottom-01; 
+  }
+}
+.sp-align-bottom-02 {
+  &:before {
+    content: $sp-align-bottom-02; 
+  }
+}
+.sp-align-center {
+  &:before {
+    content: $sp-align-center; 
+  }
+}
+.sp-align-horizontal-centre-01 {
+  &:before {
+    content: $sp-align-horizontal-centre-01; 
+  }
+}
+.sp-align-horizontal-centre-02 {
+  &:before {
+    content: $sp-align-horizontal-centre-02; 
+  }
+}
+.sp-align-justify {
+  &:before {
+    content: $sp-align-justify; 
+  }
+}
+.sp-align-left-01 {
+  &:before {
+    content: $sp-align-left-01; 
+  }
+}
+.sp-align-left-02 {
+  &:before {
+    content: $sp-align-left-02; 
+  }
+}
+.sp-align-left {
+  &:before {
+    content: $sp-align-left; 
+  }
+}
+.sp-align-right-01 {
+  &:before {
+    content: $sp-align-right-01; 
+  }
+}
+.sp-align-right-02 {
+  &:before {
+    content: $sp-align-right-02; 
+  }
+}
+.sp-align-right {
+  &:before {
+    content: $sp-align-right; 
+  }
+}
+.sp-align-top-arrow-01 {
+  &:before {
+    content: $sp-align-top-arrow-01; 
+  }
+}
+.sp-align-top-arrow-02 {
+  &:before {
+    content: $sp-align-top-arrow-02; 
+  }
+}
+.sp-align-vertical-center-01 {
+  &:before {
+    content: $sp-align-vertical-center-01; 
+  }
+}
+.sp-align-vertical-center-02 {
+  &:before {
+    content: $sp-align-vertical-center-02; 
+  }
+}
+.sp-anchor {
+  &:before {
+    content: $sp-anchor; 
+  }
+}
+.sp-annotation-alert {
+  &:before {
+    content: $sp-annotation-alert; 
+  }
+}
+.sp-annotation-check {
+  &:before {
+    content: $sp-annotation-check; 
+  }
+}
+.sp-annotation-dots {
+  &:before {
+    content: $sp-annotation-dots; 
+  }
+}
+.sp-annotation-info {
+  &:before {
+    content: $sp-annotation-info; 
+  }
+}
+.sp-annotation-plus {
+  &:before {
+    content: $sp-annotation-plus; 
+  }
+}
+.sp-annotation-question {
+  &:before {
+    content: $sp-annotation-question; 
+  }
+}
+.sp-annotation-x {
+  &:before {
+    content: $sp-annotation-x; 
+  }
+}
+.sp-annotation {
+  &:before {
+    content: $sp-annotation; 
+  }
+}
+.sp-announcement-01 {
+  &:before {
+    content: $sp-announcement-01; 
+  }
+}
+.sp-archive {
+  &:before {
+    content: $sp-archive; 
+  }
+}
+.sp-arrow-block-down {
+  &:before {
+    content: $sp-arrow-block-down; 
+  }
+}
+.sp-arrow-block-left {
+  &:before {
+    content: $sp-arrow-block-left; 
+  }
+}
+.sp-arrow-block-right {
+  &:before {
+    content: $sp-arrow-block-right; 
+  }
+}
+.sp-arrow-block-up {
+  &:before {
+    content: $sp-arrow-block-up; 
+  }
+}
+.sp-arrow-circle-broken-down-left {
+  &:before {
+    content: $sp-arrow-circle-broken-down-left; 
+  }
+}
+.sp-arrow-circle-broken-down-right {
+  &:before {
+    content: $sp-arrow-circle-broken-down-right; 
+  }
+}
+.sp-arrow-circle-broken-down {
+  &:before {
+    content: $sp-arrow-circle-broken-down; 
+  }
+}
+.sp-arrow-circle-broken-left {
+  &:before {
+    content: $sp-arrow-circle-broken-left; 
+  }
+}
+.sp-arrow-circle-broken-right {
+  &:before {
+    content: $sp-arrow-circle-broken-right; 
+  }
+}
+.sp-arrow-circle-broken-up-left {
+  &:before {
+    content: $sp-arrow-circle-broken-up-left; 
+  }
+}
+.sp-arrow-circle-broken-up-right {
+  &:before {
+    content: $sp-arrow-circle-broken-up-right; 
+  }
+}
+.sp-arrow-circle-broken-up {
+  &:before {
+    content: $sp-arrow-circle-broken-up; 
+  }
+}
+.sp-arrow-circle-down-left {
+  &:before {
+    content: $sp-arrow-circle-down-left; 
+  }
+}
+.sp-arrow-circle-down-right {
+  &:before {
+    content: $sp-arrow-circle-down-right; 
+  }
+}
+.sp-arrow-circle-down {
+  &:before {
+    content: $sp-arrow-circle-down; 
+  }
+}
+.sp-arrow-circle-left {
+  &:before {
+    content: $sp-arrow-circle-left; 
+  }
+}
+.sp-arrow-circle-right {
+  &:before {
+    content: $sp-arrow-circle-right; 
+  }
+}
+.sp-arrow-circle-up-left {
+  &:before {
+    content: $sp-arrow-circle-up-left; 
+  }
+}
+.sp-arrow-circle-up-right {
+  &:before {
+    content: $sp-arrow-circle-up-right; 
+  }
+}
+.sp-arrow-circle-up {
+  &:before {
+    content: $sp-arrow-circle-up; 
+  }
+}
+.sp-arrow-down-left {
+  &:before {
+    content: $sp-arrow-down-left; 
+  }
+}
+.sp-arrow-down-right {
+  &:before {
+    content: $sp-arrow-down-right; 
+  }
+}
+.sp-arrow-down {
+  &:before {
+    content: $sp-arrow-down; 
+  }
+}
+.sp-arrow-left {
+  &:before {
+    content: $sp-arrow-left; 
+  }
+}
+.sp-arrow-narrow-down-left {
+  &:before {
+    content: $sp-arrow-narrow-down-left; 
+  }
+}
+.sp-arrow-narrow-down-right {
+  &:before {
+    content: $sp-arrow-narrow-down-right; 
+  }
+}
+.sp-arrow-narrow-down {
+  &:before {
+    content: $sp-arrow-narrow-down; 
+  }
+}
+.sp-arrow-narrow-left {
+  &:before {
+    content: $sp-arrow-narrow-left; 
+  }
+}
+.sp-arrow-narrow-right {
+  &:before {
+    content: $sp-arrow-narrow-right; 
+  }
+}
+.sp-arrow-narrow-up-left {
+  &:before {
+    content: $sp-arrow-narrow-up-left; 
+  }
+}
+.sp-arrow-narrow-up-right {
+  &:before {
+    content: $sp-arrow-narrow-up-right; 
+  }
+}
+.sp-arrow-narrow-up {
+  &:before {
+    content: $sp-arrow-narrow-up; 
+  }
+}
+.sp-arrow-right {
+  &:before {
+    content: $sp-arrow-right; 
+  }
+}
+.sp-arrow-square-down-left {
+  &:before {
+    content: $sp-arrow-square-down-left; 
+  }
+}
+.sp-arrow-square-down-right {
+  &:before {
+    content: $sp-arrow-square-down-right; 
+  }
+}
+.sp-arrow-square-down {
+  &:before {
+    content: $sp-arrow-square-down; 
+  }
+}
+.sp-arrow-square-left {
+  &:before {
+    content: $sp-arrow-square-left; 
+  }
+}
+.sp-arrow-square-right {
+  &:before {
+    content: $sp-arrow-square-right; 
+  }
+}
+.sp-arrow-square-up-left {
+  &:before {
+    content: $sp-arrow-square-up-left; 
+  }
+}
+.sp-arrow-square-up-right {
+  &:before {
+    content: $sp-arrow-square-up-right; 
+  }
+}
+.sp-arrow-square-up {
+  &:before {
+    content: $sp-arrow-square-up; 
+  }
+}
+.sp-arrow-up-left {
+  &:before {
+    content: $sp-arrow-up-left; 
+  }
+}
+.sp-arrow-up-right {
+  &:before {
+    content: $sp-arrow-up-right; 
+  }
+}
+.sp-arrow-up {
+  &:before {
+    content: $sp-arrow-up; 
+  }
+}
+.sp-arrows-down {
+  &:before {
+    content: $sp-arrows-down; 
+  }
+}
+.sp-arrows-left {
+  &:before {
+    content: $sp-arrows-left; 
+  }
+}
+.sp-arrows-right {
+  &:before {
+    content: $sp-arrows-right; 
+  }
+}
+.sp-arrows-triangle {
+  &:before {
+    content: $sp-arrows-triangle; 
+  }
+}
+.sp-arrows-up {
+  &:before {
+    content: $sp-arrows-up; 
+  }
+}
+.sp-asterisk-01 {
+  &:before {
+    content: $sp-asterisk-01; 
+  }
+}
+.sp-asterisk-02 {
+  &:before {
+    content: $sp-asterisk-02; 
+  }
+}
+.sp-at-sign {
+  &:before {
+    content: $sp-at-sign; 
+  }
+}
+.sp-atom-01 {
+  &:before {
+    content: $sp-atom-01; 
+  }
+}
+.sp-atom-02 {
+  &:before {
+    content: $sp-atom-02; 
+  }
+}
+.sp-attachment-01 {
+  &:before {
+    content: $sp-attachment-01; 
+  }
+}
+.sp-attachment-02 {
+  &:before {
+    content: $sp-attachment-02; 
+  }
+}
+.sp-award-01 {
+  &:before {
+    content: $sp-award-01; 
+  }
+}
+.sp-award-02 {
+  &:before {
+    content: $sp-award-02; 
+  }
+}
+.sp-award-03 {
+  &:before {
+    content: $sp-award-03; 
+  }
+}
+.sp-award-04 {
+  &:before {
+    content: $sp-award-04; 
+  }
+}
+.sp-award-05 {
+  &:before {
+    content: $sp-award-05; 
+  }
+}
+.sp-backpack {
+  &:before {
+    content: $sp-backpack; 
+  }
+}
+.sp-bank-note-01 {
+  &:before {
+    content: $sp-bank-note-01; 
+  }
+}
+.sp-bank-note-02 {
+  &:before {
+    content: $sp-bank-note-02; 
+  }
+}
+.sp-bank-note-03 {
+  &:before {
+    content: $sp-bank-note-03; 
+  }
+}
+.sp-bank {
+  &:before {
+    content: $sp-bank; 
+  }
+}
+.sp-bar-chart-01 {
+  &:before {
+    content: $sp-bar-chart-01; 
+  }
+}
+.sp-bar-chart-02 {
+  &:before {
+    content: $sp-bar-chart-02; 
+  }
+}
+.sp-bar-chart-03 {
+  &:before {
+    content: $sp-bar-chart-03; 
+  }
+}
+.sp-bar-chart-04 {
+  &:before {
+    content: $sp-bar-chart-04; 
+  }
+}
+.sp-bar-chart-05 {
+  &:before {
+    content: $sp-bar-chart-05; 
+  }
+}
+.sp-bar-chart-06 {
+  &:before {
+    content: $sp-bar-chart-06; 
+  }
+}
+.sp-bar-chart-07 {
+  &:before {
+    content: $sp-bar-chart-07; 
+  }
+}
+.sp-bar-chart-08 {
+  &:before {
+    content: $sp-bar-chart-08; 
+  }
+}
+.sp-bar-chart-09 {
+  &:before {
+    content: $sp-bar-chart-09; 
+  }
+}
+.sp-bar-chart-10 {
+  &:before {
+    content: $sp-bar-chart-10; 
+  }
+}
+.sp-bar-chart-11 {
+  &:before {
+    content: $sp-bar-chart-11; 
+  }
+}
+.sp-bar-chart-12 {
+  &:before {
+    content: $sp-bar-chart-12; 
+  }
+}
+.sp-bar-chart-circle-01 {
+  &:before {
+    content: $sp-bar-chart-circle-01; 
+  }
+}
+.sp-bar-chart-circle-02 {
+  &:before {
+    content: $sp-bar-chart-circle-02; 
+  }
+}
+.sp-bar-chart-circle-03 {
+  &:before {
+    content: $sp-bar-chart-circle-03; 
+  }
+}
+.sp-bar-chart-square-01 {
+  &:before {
+    content: $sp-bar-chart-square-01; 
+  }
+}
+.sp-bar-chart-square-02 {
+  &:before {
+    content: $sp-bar-chart-square-02; 
+  }
+}
+.sp-bar-chart-square-03 {
+  &:before {
+    content: $sp-bar-chart-square-03; 
+  }
+}
+.sp-bar-chart-square-down {
+  &:before {
+    content: $sp-bar-chart-square-down; 
+  }
+}
+.sp-bar-chart-square-minus {
+  &:before {
+    content: $sp-bar-chart-square-minus; 
+  }
+}
+.sp-bar-chart-square-plus {
+  &:before {
+    content: $sp-bar-chart-square-plus; 
+  }
+}
+.sp-bar-chart-square-up {
+  &:before {
+    content: $sp-bar-chart-square-up; 
+  }
+}
+.sp-bar-line-chart {
+  &:before {
+    content: $sp-bar-line-chart; 
+  }
+}
+.sp-battery-charging-01 {
+  &:before {
+    content: $sp-battery-charging-01; 
+  }
+}
+.sp-battery-charging-02 {
+  &:before {
+    content: $sp-battery-charging-02; 
+  }
+}
+.sp-battery-empty {
+  &:before {
+    content: $sp-battery-empty; 
+  }
+}
+.sp-battery-full {
+  &:before {
+    content: $sp-battery-full; 
+  }
+}
+.sp-battery-low {
+  &:before {
+    content: $sp-battery-low; 
+  }
+}
+.sp-battery-mid {
+  &:before {
+    content: $sp-battery-mid; 
+  }
+}
+.sp-beaker-01 {
+  &:before {
+    content: $sp-beaker-01; 
+  }
+}
+.sp-beaker-02 {
+  &:before {
+    content: $sp-beaker-02; 
+  }
+}
+.sp-bell-01 {
+  &:before {
+    content: $sp-bell-01; 
+  }
+}
+.sp-bell-02 {
+  &:before {
+    content: $sp-bell-02; 
+  }
+}
+.sp-bell-03 {
+  &:before {
+    content: $sp-bell-03; 
+  }
+}
+.sp-bell-04 {
+  &:before {
+    content: $sp-bell-04; 
+  }
+}
+.sp-bell-minus {
+  &:before {
+    content: $sp-bell-minus; 
+  }
+}
+.sp-bell-off-01 {
+  &:before {
+    content: $sp-bell-off-01; 
+  }
+}
+.sp-bell-off-02 {
+  &:before {
+    content: $sp-bell-off-02; 
+  }
+}
+.sp-bell-off-03 {
+  &:before {
+    content: $sp-bell-off-03; 
+  }
+}
+.sp-bell-plus {
+  &:before {
+    content: $sp-bell-plus; 
+  }
+}
+.sp-bell-ringing-01 {
+  &:before {
+    content: $sp-bell-ringing-01; 
+  }
+}
+.sp-bell-ringing-02 {
+  &:before {
+    content: $sp-bell-ringing-02; 
+  }
+}
+.sp-bell-ringing-03 {
+  &:before {
+    content: $sp-bell-ringing-03; 
+  }
+}
+.sp-bell-ringing-04 {
+  &:before {
+    content: $sp-bell-ringing-04; 
+  }
+}
+.sp-bezier-curve-01 {
+  &:before {
+    content: $sp-bezier-curve-01; 
+  }
+}
+.sp-bezier-curve-02 {
+  &:before {
+    content: $sp-bezier-curve-02; 
+  }
+}
+.sp-bezier-curve-03 {
+  &:before {
+    content: $sp-bezier-curve-03; 
+  }
+}
+.sp-bluetooth-connect {
+  &:before {
+    content: $sp-bluetooth-connect; 
+  }
+}
+.sp-bluetooth-off {
+  &:before {
+    content: $sp-bluetooth-off; 
+  }
+}
+.sp-bluetooth-on {
+  &:before {
+    content: $sp-bluetooth-on; 
+  }
+}
+.sp-bluetooth-signal {
+  &:before {
+    content: $sp-bluetooth-signal; 
+  }
+}
+.sp-bold-01 {
+  &:before {
+    content: $sp-bold-01; 
+  }
+}
+.sp-bold-02 {
+  &:before {
+    content: $sp-bold-02; 
+  }
+}
+.sp-bold-square {
+  &:before {
+    content: $sp-bold-square; 
+  }
+}
+.sp-book-closed {
+  &:before {
+    content: $sp-book-closed; 
+  }
+}
+.sp-book-open-01 {
+  &:before {
+    content: $sp-book-open-01; 
+  }
+}
+.sp-book-open-02 {
+  &:before {
+    content: $sp-book-open-02; 
+  }
+}
+.sp-bookmark-add {
+  &:before {
+    content: $sp-bookmark-add; 
+  }
+}
+.sp-bookmark-check {
+  &:before {
+    content: $sp-bookmark-check; 
+  }
+}
+.sp-bookmark-minus {
+  &:before {
+    content: $sp-bookmark-minus; 
+  }
+}
+.sp-bookmark-x {
+  &:before {
+    content: $sp-bookmark-x; 
+  }
+}
+.sp-bookmark {
+  &:before {
+    content: $sp-bookmark; 
+  }
+}
+.sp-box {
+  &:before {
+    content: $sp-box; 
+  }
+}
+.sp-brackets-check {
+  &:before {
+    content: $sp-brackets-check; 
+  }
+}
+.sp-brackets-ellipses {
+  &:before {
+    content: $sp-brackets-ellipses; 
+  }
+}
+.sp-brackets-minus {
+  &:before {
+    content: $sp-brackets-minus; 
+  }
+}
+.sp-brackets-plus {
+  &:before {
+    content: $sp-brackets-plus; 
+  }
+}
+.sp-brackets-slash {
+  &:before {
+    content: $sp-brackets-slash; 
+  }
+}
+.sp-brackets-x {
+  &:before {
+    content: $sp-brackets-x; 
+  }
+}
+.sp-brackets {
+  &:before {
+    content: $sp-brackets; 
+  }
+}
+.sp-briefcase-01 {
+  &:before {
+    content: $sp-briefcase-01; 
+  }
+}
+.sp-briefcase-02 {
+  &:before {
+    content: $sp-briefcase-02; 
+  }
+}
+.sp-browser {
+  &:before {
+    content: $sp-browser; 
+  }
+}
+.sp-brush-01 {
+  &:before {
+    content: $sp-brush-01; 
+  }
+}
+.sp-brush-02 {
+  &:before {
+    content: $sp-brush-02; 
+  }
+}
+.sp-brush-03 {
+  &:before {
+    content: $sp-brush-03; 
+  }
+}
+.sp-building-01 {
+  &:before {
+    content: $sp-building-01; 
+  }
+}
+.sp-building-02 {
+  &:before {
+    content: $sp-building-02; 
+  }
+}
+.sp-building-03 {
+  &:before {
+    content: $sp-building-03; 
+  }
+}
+.sp-building-04 {
+  &:before {
+    content: $sp-building-04; 
+  }
+}
+.sp-building-05 {
+  &:before {
+    content: $sp-building-05; 
+  }
+}
+.sp-building-06 {
+  &:before {
+    content: $sp-building-06; 
+  }
+}
+.sp-building-07 {
+  &:before {
+    content: $sp-building-07; 
+  }
+}
+.sp-building-08 {
+  &:before {
+    content: $sp-building-08; 
+  }
+}
+.sp-bus {
+  &:before {
+    content: $sp-bus; 
+  }
+}
+.sp-calculator {
+  &:before {
+    content: $sp-calculator; 
+  }
+}
+.sp-calendar-check-01 {
+  &:before {
+    content: $sp-calendar-check-01; 
+  }
+}
+.sp-calendar-check-02 {
+  &:before {
+    content: $sp-calendar-check-02; 
+  }
+}
+.sp-calendar-date {
+  &:before {
+    content: $sp-calendar-date; 
+  }
+}
+.sp-calendar-heart-01 {
+  &:before {
+    content: $sp-calendar-heart-01; 
+  }
+}
+.sp-calendar-heart-02 {
+  &:before {
+    content: $sp-calendar-heart-02; 
+  }
+}
+.sp-calendar-minus-01 {
+  &:before {
+    content: $sp-calendar-minus-01; 
+  }
+}
+.sp-calendar-minus-02 {
+  &:before {
+    content: $sp-calendar-minus-02; 
+  }
+}
+.sp-calendar-plus-01 {
+  &:before {
+    content: $sp-calendar-plus-01; 
+  }
+}
+.sp-calendar-plus-02 {
+  &:before {
+    content: $sp-calendar-plus-02; 
+  }
+}
+.sp-calendar {
+  &:before {
+    content: $sp-calendar; 
+  }
+}
+.sp-camera-01 {
+  &:before {
+    content: $sp-camera-01; 
+  }
+}
+.sp-camera-02 {
+  &:before {
+    content: $sp-camera-02; 
+  }
+}
+.sp-camera-03 {
+  &:before {
+    content: $sp-camera-03; 
+  }
+}
+.sp-camera-lens {
+  &:before {
+    content: $sp-camera-lens; 
+  }
+}
+.sp-camera-off {
+  &:before {
+    content: $sp-camera-off; 
+  }
+}
+.sp-camera-plus {
+  &:before {
+    content: $sp-camera-plus; 
+  }
+}
+.sp-car-01 {
+  &:before {
+    content: $sp-car-01; 
+  }
+}
+.sp-car-02 {
+  &:before {
+    content: $sp-car-02; 
+  }
+}
+.sp-certificate-01 {
+  &:before {
+    content: $sp-certificate-01; 
+  }
+}
+.sp-certificate-02 {
+  &:before {
+    content: $sp-certificate-02; 
+  }
+}
+.sp-chart-breakout-circle {
+  &:before {
+    content: $sp-chart-breakout-circle; 
+  }
+}
+.sp-chart-breakout-square {
+  &:before {
+    content: $sp-chart-breakout-square; 
+  }
+}
+.sp-check-circle-broken {
+  &:before {
+    content: $sp-check-circle-broken; 
+  }
+}
+.sp-check-circle {
+  &:before {
+    content: $sp-check-circle; 
+  }
+}
+.sp-check-done-01 {
+  &:before {
+    content: $sp-check-done-01; 
+  }
+}
+.sp-check-done-02 {
+  &:before {
+    content: $sp-check-done-02; 
+  }
+}
+.sp-check-heart {
+  &:before {
+    content: $sp-check-heart; 
+  }
+}
+.sp-check-square-broken {
+  &:before {
+    content: $sp-check-square-broken; 
+  }
+}
+.sp-check-square {
+  &:before {
+    content: $sp-check-square; 
+  }
+}
+.sp-check-verified-01 {
+  &:before {
+    content: $sp-check-verified-01; 
+  }
+}
+.sp-check-verified-02 {
+  &:before {
+    content: $sp-check-verified-02; 
+  }
+}
+.sp-check-verified-03 {
+  &:before {
+    content: $sp-check-verified-03; 
+  }
+}
+.sp-check {
+  &:before {
+    content: $sp-check; 
+  }
+}
+.sp-chevron-down-double {
+  &:before {
+    content: $sp-chevron-down-double; 
+  }
+}
+.sp-chevron-down {
+  &:before {
+    content: $sp-chevron-down; 
+  }
+}
+.sp-chevron-left-double {
+  &:before {
+    content: $sp-chevron-left-double; 
+  }
+}
+.sp-chevron-left {
+  &:before {
+    content: $sp-chevron-left; 
+  }
+}
+.sp-chevron-right-double {
+  &:before {
+    content: $sp-chevron-right-double; 
+  }
+}
+.sp-chevron-right {
+  &:before {
+    content: $sp-chevron-right; 
+  }
+}
+.sp-chevron-selector-horizontal {
+  &:before {
+    content: $sp-chevron-selector-horizontal; 
+  }
+}
+.sp-chevron-selector-vertical {
+  &:before {
+    content: $sp-chevron-selector-vertical; 
+  }
+}
+.sp-chevron-up-double {
+  &:before {
+    content: $sp-chevron-up-double; 
+  }
+}
+.sp-chevron-up {
+  &:before {
+    content: $sp-chevron-up; 
+  }
+}
+.sp-chrome-cast {
+  &:before {
+    content: $sp-chrome-cast; 
+  }
+}
+.sp-circle-cut {
+  &:before {
+    content: $sp-circle-cut; 
+  }
+}
+.sp-circle {
+  &:before {
+    content: $sp-circle; 
+  }
+}
+.sp-clapperboard {
+  &:before {
+    content: $sp-clapperboard; 
+  }
+}
+.sp-clipboard-attachment {
+  &:before {
+    content: $sp-clipboard-attachment; 
+  }
+}
+.sp-clipboard-check {
+  &:before {
+    content: $sp-clipboard-check; 
+  }
+}
+.sp-clipboard-download {
+  &:before {
+    content: $sp-clipboard-download; 
+  }
+}
+.sp-clipboard-minus {
+  &:before {
+    content: $sp-clipboard-minus; 
+  }
+}
+.sp-clipboard-plus {
+  &:before {
+    content: $sp-clipboard-plus; 
+  }
+}
+.sp-clipboard-x {
+  &:before {
+    content: $sp-clipboard-x; 
+  }
+}
+.sp-clipboard {
+  &:before {
+    content: $sp-clipboard; 
+  }
+}
+.sp-clock-check {
+  &:before {
+    content: $sp-clock-check; 
+  }
+}
+.sp-clock-fast-forward {
+  &:before {
+    content: $sp-clock-fast-forward; 
+  }
+}
+.sp-clock-plus {
+  &:before {
+    content: $sp-clock-plus; 
+  }
+}
+.sp-clock-refresh {
+  &:before {
+    content: $sp-clock-refresh; 
+  }
+}
+.sp-clock-rewind {
+  &:before {
+    content: $sp-clock-rewind; 
+  }
+}
+.sp-clock-snooze {
+  &:before {
+    content: $sp-clock-snooze; 
+  }
+}
+.sp-clock-stopwatch {
+  &:before {
+    content: $sp-clock-stopwatch; 
+  }
+}
+.sp-clock {
+  &:before {
+    content: $sp-clock; 
+  }
+}
+.sp-cloud-01 {
+  &:before {
+    content: $sp-cloud-01; 
+  }
+}
+.sp-cloud-02 {
+  &:before {
+    content: $sp-cloud-02; 
+  }
+}
+.sp-cloud-03 {
+  &:before {
+    content: $sp-cloud-03; 
+  }
+}
+.sp-cloud-blank-01 {
+  &:before {
+    content: $sp-cloud-blank-01; 
+  }
+}
+.sp-cloud-blank-02 {
+  &:before {
+    content: $sp-cloud-blank-02; 
+  }
+}
+.sp-cloud-lightning {
+  &:before {
+    content: $sp-cloud-lightning; 
+  }
+}
+.sp-cloud-moon {
+  &:before {
+    content: $sp-cloud-moon; 
+  }
+}
+.sp-cloud-off {
+  &:before {
+    content: $sp-cloud-off; 
+  }
+}
+.sp-cloud-raining-01 {
+  &:before {
+    content: $sp-cloud-raining-01; 
+  }
+}
+.sp-cloud-raining-02 {
+  &:before {
+    content: $sp-cloud-raining-02; 
+  }
+}
+.sp-cloud-raining-03 {
+  &:before {
+    content: $sp-cloud-raining-03; 
+  }
+}
+.sp-cloud-raining-04 {
+  &:before {
+    content: $sp-cloud-raining-04; 
+  }
+}
+.sp-cloud-raining-05 {
+  &:before {
+    content: $sp-cloud-raining-05; 
+  }
+}
+.sp-cloud-raining-06 {
+  &:before {
+    content: $sp-cloud-raining-06; 
+  }
+}
+.sp-cloud-snowing-01 {
+  &:before {
+    content: $sp-cloud-snowing-01; 
+  }
+}
+.sp-cloud-snowing-02 {
+  &:before {
+    content: $sp-cloud-snowing-02; 
+  }
+}
+.sp-cloud-sun-01 {
+  &:before {
+    content: $sp-cloud-sun-01; 
+  }
+}
+.sp-cloud-sun-02 {
+  &:before {
+    content: $sp-cloud-sun-02; 
+  }
+}
+.sp-cloud-sun-03 {
+  &:before {
+    content: $sp-cloud-sun-03; 
+  }
+}
+.sp-code-01 {
+  &:before {
+    content: $sp-code-01; 
+  }
+}
+.sp-code-02 {
+  &:before {
+    content: $sp-code-02; 
+  }
+}
+.sp-code-browser {
+  &:before {
+    content: $sp-code-browser; 
+  }
+}
+.sp-code-circle-01 {
+  &:before {
+    content: $sp-code-circle-01; 
+  }
+}
+.sp-code-circle-02 {
+  &:before {
+    content: $sp-code-circle-02; 
+  }
+}
+.sp-code-circle-03 {
+  &:before {
+    content: $sp-code-circle-03; 
+  }
+}
+.sp-code-snippet-01 {
+  &:before {
+    content: $sp-code-snippet-01; 
+  }
+}
+.sp-code-snippet-02 {
+  &:before {
+    content: $sp-code-snippet-02; 
+  }
+}
+.sp-code-square-01 {
+  &:before {
+    content: $sp-code-square-01; 
+  }
+}
+.sp-code-square-02 {
+  &:before {
+    content: $sp-code-square-02; 
+  }
+}
+.sp-codepen {
+  &:before {
+    content: $sp-codepen; 
+  }
+}
+.sp-coins-01 {
+  &:before {
+    content: $sp-coins-01; 
+  }
+}
+.sp-coins-02 {
+  &:before {
+    content: $sp-coins-02; 
+  }
+}
+.sp-coins-03 {
+  &:before {
+    content: $sp-coins-03; 
+  }
+}
+.sp-coins-04 {
+  &:before {
+    content: $sp-coins-04; 
+  }
+}
+.sp-coins-hand {
+  &:before {
+    content: $sp-coins-hand; 
+  }
+}
+.sp-coins-stacked-01 {
+  &:before {
+    content: $sp-coins-stacked-01; 
+  }
+}
+.sp-coins-stacked-02 {
+  &:before {
+    content: $sp-coins-stacked-02; 
+  }
+}
+.sp-coins-stacked-03 {
+  &:before {
+    content: $sp-coins-stacked-03; 
+  }
+}
+.sp-coins-stacked-04 {
+  &:before {
+    content: $sp-coins-stacked-04; 
+  }
+}
+.sp-coins-swap-01 {
+  &:before {
+    content: $sp-coins-swap-01; 
+  }
+}
+.sp-coins-swap-02 {
+  &:before {
+    content: $sp-coins-swap-02; 
+  }
+}
+.sp-colors {
+  &:before {
+    content: $sp-colors; 
+  }
+}
+.sp-columns-01 {
+  &:before {
+    content: $sp-columns-01; 
+  }
+}
+.sp-columns-02 {
+  &:before {
+    content: $sp-columns-02; 
+  }
+}
+.sp-columns-03 {
+  &:before {
+    content: $sp-columns-03; 
+  }
+}
+.sp-command {
+  &:before {
+    content: $sp-command; 
+  }
+}
+.sp-compass-01 {
+  &:before {
+    content: $sp-compass-01; 
+  }
+}
+.sp-compass-02 {
+  &:before {
+    content: $sp-compass-02; 
+  }
+}
+.sp-compass-03 {
+  &:before {
+    content: $sp-compass-03; 
+  }
+}
+.sp-compass {
+  &:before {
+    content: $sp-compass; 
+  }
+}
+.sp-container {
+  &:before {
+    content: $sp-container; 
+  }
+}
+.sp-contrast-01 {
+  &:before {
+    content: $sp-contrast-01; 
+  }
+}
+.sp-contrast-02 {
+  &:before {
+    content: $sp-contrast-02; 
+  }
+}
+.sp-contrast-03 {
+  &:before {
+    content: $sp-contrast-03; 
+  }
+}
+.sp-copy-01 {
+  &:before {
+    content: $sp-copy-01; 
+  }
+}
+.sp-copy-02 {
+  &:before {
+    content: $sp-copy-02; 
+  }
+}
+.sp-copy-03 {
+  &:before {
+    content: $sp-copy-03; 
+  }
+}
+.sp-copy-04 {
+  &:before {
+    content: $sp-copy-04; 
+  }
+}
+.sp-copy-05 {
+  &:before {
+    content: $sp-copy-05; 
+  }
+}
+.sp-copy-06 {
+  &:before {
+    content: $sp-copy-06; 
+  }
+}
+.sp-copy-07 {
+  &:before {
+    content: $sp-copy-07; 
+  }
+}
+.sp-corner-down-left {
+  &:before {
+    content: $sp-corner-down-left; 
+  }
+}
+.sp-corner-down-right {
+  &:before {
+    content: $sp-corner-down-right; 
+  }
+}
+.sp-corner-left-down {
+  &:before {
+    content: $sp-corner-left-down; 
+  }
+}
+.sp-corner-left-up {
+  &:before {
+    content: $sp-corner-left-up; 
+  }
+}
+.sp-corner-right-down {
+  &:before {
+    content: $sp-corner-right-down; 
+  }
+}
+.sp-corner-right-up {
+  &:before {
+    content: $sp-corner-right-up; 
+  }
+}
+.sp-corner-up-left {
+  &:before {
+    content: $sp-corner-up-left; 
+  }
+}
+.sp-corner-up-right {
+  &:before {
+    content: $sp-corner-up-right; 
+  }
+}
+.sp-cpu-chip-01 {
+  &:before {
+    content: $sp-cpu-chip-01; 
+  }
+}
+.sp-cpu-chip-02 {
+  &:before {
+    content: $sp-cpu-chip-02; 
+  }
+}
+.sp-credit-card-01 {
+  &:before {
+    content: $sp-credit-card-01; 
+  }
+}
+.sp-credit-card-02 {
+  &:before {
+    content: $sp-credit-card-02; 
+  }
+}
+.sp-credit-card-check {
+  &:before {
+    content: $sp-credit-card-check; 
+  }
+}
+.sp-credit-card-down {
+  &:before {
+    content: $sp-credit-card-down; 
+  }
+}
+.sp-credit-card-download {
+  &:before {
+    content: $sp-credit-card-download; 
+  }
+}
+.sp-credit-card-edit {
+  &:before {
+    content: $sp-credit-card-edit; 
+  }
+}
+.sp-credit-card-lock {
+  &:before {
+    content: $sp-credit-card-lock; 
+  }
+}
+.sp-credit-card-minus {
+  &:before {
+    content: $sp-credit-card-minus; 
+  }
+}
+.sp-credit-card-plus {
+  &:before {
+    content: $sp-credit-card-plus; 
+  }
+}
+.sp-credit-card-refresh {
+  &:before {
+    content: $sp-credit-card-refresh; 
+  }
+}
+.sp-credit-card-search {
+  &:before {
+    content: $sp-credit-card-search; 
+  }
+}
+.sp-credit-card-shield {
+  &:before {
+    content: $sp-credit-card-shield; 
+  }
+}
+.sp-credit-card-up {
+  &:before {
+    content: $sp-credit-card-up; 
+  }
+}
+.sp-credit-card-upload {
+  &:before {
+    content: $sp-credit-card-upload; 
+  }
+}
+.sp-credit-card-x {
+  &:before {
+    content: $sp-credit-card-x; 
+  }
+}
+.sp-crop-01 {
+  &:before {
+    content: $sp-crop-01; 
+  }
+}
+.sp-crop-02 {
+  &:before {
+    content: $sp-crop-02; 
+  }
+}
+.sp-cryptocurrency-01 {
+  &:before {
+    content: $sp-cryptocurrency-01; 
+  }
+}
+.sp-cryptocurrency-02 {
+  &:before {
+    content: $sp-cryptocurrency-02; 
+  }
+}
+.sp-cryptocurrency-03 {
+  &:before {
+    content: $sp-cryptocurrency-03; 
+  }
+}
+.sp-cryptocurrency-04 {
+  &:before {
+    content: $sp-cryptocurrency-04; 
+  }
+}
+.sp-cube-01 {
+  &:before {
+    content: $sp-cube-01; 
+  }
+}
+.sp-cube-02 {
+  &:before {
+    content: $sp-cube-02; 
+  }
+}
+.sp-cube-03 {
+  &:before {
+    content: $sp-cube-03; 
+  }
+}
+.sp-cube-04 {
+  &:before {
+    content: $sp-cube-04; 
+  }
+}
+.sp-cube-outline {
+  &:before {
+    content: $sp-cube-outline; 
+  }
+}
+.sp-currency-bitcoin-circle {
+  &:before {
+    content: $sp-currency-bitcoin-circle; 
+  }
+}
+.sp-currency-bitcoin {
+  &:before {
+    content: $sp-currency-bitcoin; 
+  }
+}
+.sp-currency-dollar-circle {
+  &:before {
+    content: $sp-currency-dollar-circle; 
+  }
+}
+.sp-currency-dollar {
+  &:before {
+    content: $sp-currency-dollar; 
+  }
+}
+.sp-currency-ethereum-circle {
+  &:before {
+    content: $sp-currency-ethereum-circle; 
+  }
+}
+.sp-currency-ethereum {
+  &:before {
+    content: $sp-currency-ethereum; 
+  }
+}
+.sp-currency-euro-circle {
+  &:before {
+    content: $sp-currency-euro-circle; 
+  }
+}
+.sp-currency-euro {
+  &:before {
+    content: $sp-currency-euro; 
+  }
+}
+.sp-currency-pound-circle {
+  &:before {
+    content: $sp-currency-pound-circle; 
+  }
+}
+.sp-currency-pound {
+  &:before {
+    content: $sp-currency-pound; 
+  }
+}
+.sp-currency-ruble-circle {
+  &:before {
+    content: $sp-currency-ruble-circle; 
+  }
+}
+.sp-currency-ruble {
+  &:before {
+    content: $sp-currency-ruble; 
+  }
+}
+.sp-currency-rupee-circle {
+  &:before {
+    content: $sp-currency-rupee-circle; 
+  }
+}
+.sp-currency-rupee {
+  &:before {
+    content: $sp-currency-rupee; 
+  }
+}
+.sp-currency-yen-circle {
+  &:before {
+    content: $sp-currency-yen-circle; 
+  }
+}
+.sp-currency-yen {
+  &:before {
+    content: $sp-currency-yen; 
+  }
+}
+.sp-cursor-01 {
+  &:before {
+    content: $sp-cursor-01; 
+  }
+}
+.sp-cursor-02 {
+  &:before {
+    content: $sp-cursor-02; 
+  }
+}
+.sp-cursor-03 {
+  &:before {
+    content: $sp-cursor-03; 
+  }
+}
+.sp-cursor-04 {
+  &:before {
+    content: $sp-cursor-04; 
+  }
+}
+.sp-cursor-box {
+  &:before {
+    content: $sp-cursor-box; 
+  }
+}
+.sp-cursor-click-01 {
+  &:before {
+    content: $sp-cursor-click-01; 
+  }
+}
+.sp-cursor-click-02 {
+  &:before {
+    content: $sp-cursor-click-02; 
+  }
+}
+.sp-data {
+  &:before {
+    content: $sp-data; 
+  }
+}
+.sp-database-01 {
+  &:before {
+    content: $sp-database-01; 
+  }
+}
+.sp-database-02 {
+  &:before {
+    content: $sp-database-02; 
+  }
+}
+.sp-database-03 {
+  &:before {
+    content: $sp-database-03; 
+  }
+}
+.sp-dataflow-01 {
+  &:before {
+    content: $sp-dataflow-01; 
+  }
+}
+.sp-dataflow-02 {
+  &:before {
+    content: $sp-dataflow-02; 
+  }
+}
+.sp-dataflow-03 {
+  &:before {
+    content: $sp-dataflow-03; 
+  }
+}
+.sp-dataflow-04 {
+  &:before {
+    content: $sp-dataflow-04; 
+  }
+}
+.sp-delete {
+  &:before {
+    content: $sp-delete; 
+  }
+}
+.sp-diamond-01 {
+  &:before {
+    content: $sp-diamond-01; 
+  }
+}
+.sp-diamond-02 {
+  &:before {
+    content: $sp-diamond-02; 
+  }
+}
+.sp-dice-1 {
+  &:before {
+    content: $sp-dice-1; 
+  }
+}
+.sp-dice-2 {
+  &:before {
+    content: $sp-dice-2; 
+  }
+}
+.sp-dice-3 {
+  &:before {
+    content: $sp-dice-3; 
+  }
+}
+.sp-dice-4 {
+  &:before {
+    content: $sp-dice-4; 
+  }
+}
+.sp-dice-5 {
+  &:before {
+    content: $sp-dice-5; 
+  }
+}
+.sp-dice-6 {
+  &:before {
+    content: $sp-dice-6; 
+  }
+}
+.sp-disc-01 {
+  &:before {
+    content: $sp-disc-01; 
+  }
+}
+.sp-disc-02 {
+  &:before {
+    content: $sp-disc-02; 
+  }
+}
+.sp-distribute-spacing-horizontal {
+  &:before {
+    content: $sp-distribute-spacing-horizontal; 
+  }
+}
+.sp-distribute-spacing-vertical {
+  &:before {
+    content: $sp-distribute-spacing-vertical; 
+  }
+}
+.sp-divide-01 {
+  &:before {
+    content: $sp-divide-01; 
+  }
+}
+.sp-divide-02 {
+  &:before {
+    content: $sp-divide-02; 
+  }
+}
+.sp-divide-03 {
+  &:before {
+    content: $sp-divide-03; 
+  }
+}
+.sp-divider {
+  &:before {
+    content: $sp-divider; 
+  }
+}
+.sp-dotpoints-01 {
+  &:before {
+    content: $sp-dotpoints-01; 
+  }
+}
+.sp-dotpoints-02 {
+  &:before {
+    content: $sp-dotpoints-02; 
+  }
+}
+.sp-dots-grid {
+  &:before {
+    content: $sp-dots-grid; 
+  }
+}
+.sp-dots-horizontal {
+  &:before {
+    content: $sp-dots-horizontal; 
+  }
+}
+.sp-dots-vertical {
+  &:before {
+    content: $sp-dots-vertical; 
+  }
+}
+.sp-download-01 {
+  &:before {
+    content: $sp-download-01; 
+  }
+}
+.sp-download-02 {
+  &:before {
+    content: $sp-download-02; 
+  }
+}
+.sp-download-03 {
+  &:before {
+    content: $sp-download-03; 
+  }
+}
+.sp-download-04 {
+  &:before {
+    content: $sp-download-04; 
+  }
+}
+.sp-download-cloud-01 {
+  &:before {
+    content: $sp-download-cloud-01; 
+  }
+}
+.sp-download-cloud-02 {
+  &:before {
+    content: $sp-download-cloud-02; 
+  }
+}
+.sp-drop {
+  &:before {
+    content: $sp-drop; 
+  }
+}
+.sp-droplets-01 {
+  &:before {
+    content: $sp-droplets-01; 
+  }
+}
+.sp-droplets-02 {
+  &:before {
+    content: $sp-droplets-02; 
+  }
+}
+.sp-droplets-03 {
+  &:before {
+    content: $sp-droplets-03; 
+  }
+}
+.sp-dropper {
+  &:before {
+    content: $sp-dropper; 
+  }
+}
+.sp-edit-01 {
+  &:before {
+    content: $sp-edit-01; 
+  }
+}
+.sp-edit-02 {
+  &:before {
+    content: $sp-edit-02; 
+  }
+}
+.sp-edit-03 {
+  &:before {
+    content: $sp-edit-03; 
+  }
+}
+.sp-edit-04 {
+  &:before {
+    content: $sp-edit-04; 
+  }
+}
+.sp-edit-05 {
+  &:before {
+    content: $sp-edit-05; 
+  }
+}
+.sp-equal-not {
+  &:before {
+    content: $sp-equal-not; 
+  }
+}
+.sp-equal {
+  &:before {
+    content: $sp-equal; 
+  }
+}
+.sp-eraser {
+  &:before {
+    content: $sp-eraser; 
+  }
+}
+.sp-expand-01 {
+  &:before {
+    content: $sp-expand-01; 
+  }
+}
+.sp-expand-02 {
+  &:before {
+    content: $sp-expand-02; 
+  }
+}
+.sp-expand-03 {
+  &:before {
+    content: $sp-expand-03; 
+  }
+}
+.sp-expand-04 {
+  &:before {
+    content: $sp-expand-04; 
+  }
+}
+.sp-expand-05 {
+  &:before {
+    content: $sp-expand-05; 
+  }
+}
+.sp-expand-06 {
+  &:before {
+    content: $sp-expand-06; 
+  }
+}
+.sp-eye-off {
+  &:before {
+    content: $sp-eye-off; 
+  }
+}
+.sp-eye {
+  &:before {
+    content: $sp-eye; 
+  }
+}
+.sp-face-content {
+  &:before {
+    content: $sp-face-content; 
+  }
+}
+.sp-face-frown {
+  &:before {
+    content: $sp-face-frown; 
+  }
+}
+.sp-face-happy {
+  &:before {
+    content: $sp-face-happy; 
+  }
+}
+.sp-face-id-square {
+  &:before {
+    content: $sp-face-id-square; 
+  }
+}
+.sp-face-id {
+  &:before {
+    content: $sp-face-id; 
+  }
+}
+.sp-face-neutral {
+  &:before {
+    content: $sp-face-neutral; 
+  }
+}
+.sp-face-sad {
+  &:before {
+    content: $sp-face-sad; 
+  }
+}
+.sp-face-smile {
+  &:before {
+    content: $sp-face-smile; 
+  }
+}
+.sp-face-wink {
+  &:before {
+    content: $sp-face-wink; 
+  }
+}
+.sp-fast-backward {
+  &:before {
+    content: $sp-fast-backward; 
+  }
+}
+.sp-fast-forward {
+  &:before {
+    content: $sp-fast-forward; 
+  }
+}
+.sp-feather {
+  &:before {
+    content: $sp-feather; 
+  }
+}
+.sp-figma {
+  &:before {
+    content: $sp-figma; 
+  }
+}
+.sp-file-01 {
+  &:before {
+    content: $sp-file-01; 
+  }
+}
+.sp-file-02 {
+  &:before {
+    content: $sp-file-02; 
+  }
+}
+.sp-file-03 {
+  &:before {
+    content: $sp-file-03; 
+  }
+}
+.sp-file-04 {
+  &:before {
+    content: $sp-file-04; 
+  }
+}
+.sp-file-05 {
+  &:before {
+    content: $sp-file-05; 
+  }
+}
+.sp-file-06 {
+  &:before {
+    content: $sp-file-06; 
+  }
+}
+.sp-file-07 {
+  &:before {
+    content: $sp-file-07; 
+  }
+}
+.sp-file-attachment-01 {
+  &:before {
+    content: $sp-file-attachment-01; 
+  }
+}
+.sp-file-attachment-02 {
+  &:before {
+    content: $sp-file-attachment-02; 
+  }
+}
+.sp-file-attachment-03 {
+  &:before {
+    content: $sp-file-attachment-03; 
+  }
+}
+.sp-file-attachment-04 {
+  &:before {
+    content: $sp-file-attachment-04; 
+  }
+}
+.sp-file-attachment-05 {
+  &:before {
+    content: $sp-file-attachment-05; 
+  }
+}
+.sp-file-check-01 {
+  &:before {
+    content: $sp-file-check-01; 
+  }
+}
+.sp-file-check-02 {
+  &:before {
+    content: $sp-file-check-02; 
+  }
+}
+.sp-file-check-03 {
+  &:before {
+    content: $sp-file-check-03; 
+  }
+}
+.sp-file-code-01 {
+  &:before {
+    content: $sp-file-code-01; 
+  }
+}
+.sp-file-code-02 {
+  &:before {
+    content: $sp-file-code-02; 
+  }
+}
+.sp-file-download-01 {
+  &:before {
+    content: $sp-file-download-01; 
+  }
+}
+.sp-file-download-02 {
+  &:before {
+    content: $sp-file-download-02; 
+  }
+}
+.sp-file-download-03 {
+  &:before {
+    content: $sp-file-download-03; 
+  }
+}
+.sp-file-heart-01 {
+  &:before {
+    content: $sp-file-heart-01; 
+  }
+}
+.sp-file-heart-02 {
+  &:before {
+    content: $sp-file-heart-02; 
+  }
+}
+.sp-file-heart-03 {
+  &:before {
+    content: $sp-file-heart-03; 
+  }
+}
+.sp-file-lock-01 {
+  &:before {
+    content: $sp-file-lock-01; 
+  }
+}
+.sp-file-lock-02 {
+  &:before {
+    content: $sp-file-lock-02; 
+  }
+}
+.sp-file-lock-03 {
+  &:before {
+    content: $sp-file-lock-03; 
+  }
+}
+.sp-file-minus-01 {
+  &:before {
+    content: $sp-file-minus-01; 
+  }
+}
+.sp-file-minus-02 {
+  &:before {
+    content: $sp-file-minus-02; 
+  }
+}
+.sp-file-minus-03 {
+  &:before {
+    content: $sp-file-minus-03; 
+  }
+}
+.sp-file-plus-01 {
+  &:before {
+    content: $sp-file-plus-01; 
+  }
+}
+.sp-file-plus-02 {
+  &:before {
+    content: $sp-file-plus-02; 
+  }
+}
+.sp-file-plus-03 {
+  &:before {
+    content: $sp-file-plus-03; 
+  }
+}
+.sp-file-question-01 {
+  &:before {
+    content: $sp-file-question-01; 
+  }
+}
+.sp-file-question-02 {
+  &:before {
+    content: $sp-file-question-02; 
+  }
+}
+.sp-file-question-03 {
+  &:before {
+    content: $sp-file-question-03; 
+  }
+}
+.sp-file-search-01 {
+  &:before {
+    content: $sp-file-search-01; 
+  }
+}
+.sp-file-search-02 {
+  &:before {
+    content: $sp-file-search-02; 
+  }
+}
+.sp-file-search-03 {
+  &:before {
+    content: $sp-file-search-03; 
+  }
+}
+.sp-file-shield-01 {
+  &:before {
+    content: $sp-file-shield-01; 
+  }
+}
+.sp-file-shield-02 {
+  &:before {
+    content: $sp-file-shield-02; 
+  }
+}
+.sp-file-shield-03 {
+  &:before {
+    content: $sp-file-shield-03; 
+  }
+}
+.sp-file-x-01 {
+  &:before {
+    content: $sp-file-x-01; 
+  }
+}
+.sp-file-x-02 {
+  &:before {
+    content: $sp-file-x-02; 
+  }
+}
+.sp-file-x-03 {
+  &:before {
+    content: $sp-file-x-03; 
+  }
+}
+.sp-film-01 {
+  &:before {
+    content: $sp-film-01; 
+  }
+}
+.sp-film-02 {
+  &:before {
+    content: $sp-film-02; 
+  }
+}
+.sp-film-03 {
+  &:before {
+    content: $sp-film-03; 
+  }
+}
+.sp-filter-funnel-01 {
+  &:before {
+    content: $sp-filter-funnel-01; 
+  }
+}
+.sp-filter-funnel-02 {
+  &:before {
+    content: $sp-filter-funnel-02; 
+  }
+}
+.sp-filter-lines {
+  &:before {
+    content: $sp-filter-lines; 
+  }
+}
+.sp-fingerprint-01 {
+  &:before {
+    content: $sp-fingerprint-01; 
+  }
+}
+.sp-fingerprint-02 {
+  &:before {
+    content: $sp-fingerprint-02; 
+  }
+}
+.sp-fingerprint-03 {
+  &:before {
+    content: $sp-fingerprint-03; 
+  }
+}
+.sp-fingerprint-04 {
+  &:before {
+    content: $sp-fingerprint-04; 
+  }
+}
+.sp-flag-01 {
+  &:before {
+    content: $sp-flag-01; 
+  }
+}
+.sp-flag-02 {
+  &:before {
+    content: $sp-flag-02; 
+  }
+}
+.sp-flag-03 {
+  &:before {
+    content: $sp-flag-03; 
+  }
+}
+.sp-flag-04 {
+  &:before {
+    content: $sp-flag-04; 
+  }
+}
+.sp-flag-05 {
+  &:before {
+    content: $sp-flag-05; 
+  }
+}
+.sp-flag-06 {
+  &:before {
+    content: $sp-flag-06; 
+  }
+}
+.sp-flash-off {
+  &:before {
+    content: $sp-flash-off; 
+  }
+}
+.sp-flash {
+  &:before {
+    content: $sp-flash; 
+  }
+}
+.sp-flex-align-bottom {
+  &:before {
+    content: $sp-flex-align-bottom; 
+  }
+}
+.sp-flex-align-left {
+  &:before {
+    content: $sp-flex-align-left; 
+  }
+}
+.sp-flex-align-right {
+  &:before {
+    content: $sp-flex-align-right; 
+  }
+}
+.sp-flex-align-top {
+  &:before {
+    content: $sp-flex-align-top; 
+  }
+}
+.sp-flip-backward {
+  &:before {
+    content: $sp-flip-backward; 
+  }
+}
+.sp-flip-forward {
+  &:before {
+    content: $sp-flip-forward; 
+  }
+}
+.sp-folder-check {
+  &:before {
+    content: $sp-folder-check; 
+  }
+}
+.sp-folder-closed {
+  &:before {
+    content: $sp-folder-closed; 
+  }
+}
+.sp-folder-code {
+  &:before {
+    content: $sp-folder-code; 
+  }
+}
+.sp-folder-download {
+  &:before {
+    content: $sp-folder-download; 
+  }
+}
+.sp-folder-lock {
+  &:before {
+    content: $sp-folder-lock; 
+  }
+}
+.sp-folder-minus {
+  &:before {
+    content: $sp-folder-minus; 
+  }
+}
+.sp-folder-plus {
+  &:before {
+    content: $sp-folder-plus; 
+  }
+}
+.sp-folder-question {
+  &:before {
+    content: $sp-folder-question; 
+  }
+}
+.sp-folder-search {
+  &:before {
+    content: $sp-folder-search; 
+  }
+}
+.sp-folder-shield {
+  &:before {
+    content: $sp-folder-shield; 
+  }
+}
+.sp-folder-x {
+  &:before {
+    content: $sp-folder-x; 
+  }
+}
+.sp-folder {
+  &:before {
+    content: $sp-folder; 
+  }
+}
+.sp-framer {
+  &:before {
+    content: $sp-framer; 
+  }
+}
+.sp-gaming-pad-01 {
+  &:before {
+    content: $sp-gaming-pad-01; 
+  }
+}
+.sp-gaming-pad-02 {
+  &:before {
+    content: $sp-gaming-pad-02; 
+  }
+}
+.sp-gift-01 {
+  &:before {
+    content: $sp-gift-01; 
+  }
+}
+.sp-gift-02 {
+  &:before {
+    content: $sp-gift-02; 
+  }
+}
+.sp-git-branch-01 {
+  &:before {
+    content: $sp-git-branch-01; 
+  }
+}
+.sp-git-branch-02 {
+  &:before {
+    content: $sp-git-branch-02; 
+  }
+}
+.sp-git-commit {
+  &:before {
+    content: $sp-git-commit; 
+  }
+}
+.sp-git-merge {
+  &:before {
+    content: $sp-git-merge; 
+  }
+}
+.sp-git-pull-request {
+  &:before {
+    content: $sp-git-pull-request; 
+  }
+}
+.sp-glasses-01 {
+  &:before {
+    content: $sp-glasses-01; 
+  }
+}
+.sp-glasses-02 {
+  &:before {
+    content: $sp-glasses-02; 
+  }
+}
+.sp-globe-01 {
+  &:before {
+    content: $sp-globe-01; 
+  }
+}
+.sp-globe-02 {
+  &:before {
+    content: $sp-globe-02; 
+  }
+}
+.sp-globe-03 {
+  &:before {
+    content: $sp-globe-03; 
+  }
+}
+.sp-globe-04 {
+  &:before {
+    content: $sp-globe-04; 
+  }
+}
+.sp-globe-05 {
+  &:before {
+    content: $sp-globe-05; 
+  }
+}
+.sp-globe-06 {
+  &:before {
+    content: $sp-globe-06; 
+  }
+}
+.sp-globe-slated-01 {
+  &:before {
+    content: $sp-globe-slated-01; 
+  }
+}
+.sp-globe-slated-02 {
+  &:before {
+    content: $sp-globe-slated-02; 
+  }
+}
+.sp-google-chrome {
+  &:before {
+    content: $sp-google-chrome; 
+  }
+}
+.sp-graduation-hat-01 {
+  &:before {
+    content: $sp-graduation-hat-01; 
+  }
+}
+.sp-graduation-hat-02 {
+  &:before {
+    content: $sp-graduation-hat-02; 
+  }
+}
+.sp-grid-01 {
+  &:before {
+    content: $sp-grid-01; 
+  }
+}
+.sp-grid-02 {
+  &:before {
+    content: $sp-grid-02; 
+  }
+}
+.sp-grid-03 {
+  &:before {
+    content: $sp-grid-03; 
+  }
+}
+.sp-grid-dots-blank {
+  &:before {
+    content: $sp-grid-dots-blank; 
+  }
+}
+.sp-grid-dots-bottom {
+  &:before {
+    content: $sp-grid-dots-bottom; 
+  }
+}
+.sp-grid-dots-horizontal-center {
+  &:before {
+    content: $sp-grid-dots-horizontal-center; 
+  }
+}
+.sp-grid-dots-left {
+  &:before {
+    content: $sp-grid-dots-left; 
+  }
+}
+.sp-grid-dots-outer {
+  &:before {
+    content: $sp-grid-dots-outer; 
+  }
+}
+.sp-grid-dots-right {
+  &:before {
+    content: $sp-grid-dots-right; 
+  }
+}
+.sp-grid-dots-top {
+  &:before {
+    content: $sp-grid-dots-top; 
+  }
+}
+.sp-grid-dots-vertical-center {
+  &:before {
+    content: $sp-grid-dots-vertical-center; 
+  }
+}
+.sp-hand {
+  &:before {
+    content: $sp-hand; 
+  }
+}
+.sp-hard-drive {
+  &:before {
+    content: $sp-hard-drive; 
+  }
+}
+.sp-hash-01 {
+  &:before {
+    content: $sp-hash-01; 
+  }
+}
+.sp-hash-02 {
+  &:before {
+    content: $sp-hash-02; 
+  }
+}
+.sp-heading-01 {
+  &:before {
+    content: $sp-heading-01; 
+  }
+}
+.sp-heading-02 {
+  &:before {
+    content: $sp-heading-02; 
+  }
+}
+.sp-heading-square {
+  &:before {
+    content: $sp-heading-square; 
+  }
+}
+.sp-headphones-01 {
+  &:before {
+    content: $sp-headphones-01; 
+  }
+}
+.sp-headphones-02 {
+  &:before {
+    content: $sp-headphones-02; 
+  }
+}
+.sp-heart-circle {
+  &:before {
+    content: $sp-heart-circle; 
+  }
+}
+.sp-heart-hand {
+  &:before {
+    content: $sp-heart-hand; 
+  }
+}
+.sp-heart-hexagon {
+  &:before {
+    content: $sp-heart-hexagon; 
+  }
+}
+.sp-heart-octagon {
+  &:before {
+    content: $sp-heart-octagon; 
+  }
+}
+.sp-heart-rounded {
+  &:before {
+    content: $sp-heart-rounded; 
+  }
+}
+.sp-heart-square {
+  &:before {
+    content: $sp-heart-square; 
+  }
+}
+.sp-heart {
+  &:before {
+    content: $sp-heart; 
+  }
+}
+.sp-hearts {
+  &:before {
+    content: $sp-hearts; 
+  }
+}
+.sp-help-circle {
+  &:before {
+    content: $sp-help-circle; 
+  }
+}
+.sp-help-hexagon {
+  &:before {
+    content: $sp-help-hexagon; 
+  }
+}
+.sp-help-octagon {
+  &:before {
+    content: $sp-help-octagon; 
+  }
+}
+.sp-help-square {
+  &:before {
+    content: $sp-help-square; 
+  }
+}
+.sp-hexagon-01 {
+  &:before {
+    content: $sp-hexagon-01; 
+  }
+}
+.sp-hexagon-02 {
+  &:before {
+    content: $sp-hexagon-02; 
+  }
+}
+.sp-home-01 {
+  &:before {
+    content: $sp-home-01; 
+  }
+}
+.sp-home-02 {
+  &:before {
+    content: $sp-home-02; 
+  }
+}
+.sp-home-03 {
+  &:before {
+    content: $sp-home-03; 
+  }
+}
+.sp-home-04 {
+  &:before {
+    content: $sp-home-04; 
+  }
+}
+.sp-home-05 {
+  &:before {
+    content: $sp-home-05; 
+  }
+}
+.sp-home-line {
+  &:before {
+    content: $sp-home-line; 
+  }
+}
+.sp-home-smile {
+  &:before {
+    content: $sp-home-smile; 
+  }
+}
+.sp-horizontal-bar-chart-01 {
+  &:before {
+    content: $sp-horizontal-bar-chart-01; 
+  }
+}
+.sp-horizontal-bar-chart-02 {
+  &:before {
+    content: $sp-horizontal-bar-chart-02; 
+  }
+}
+.sp-horizontal-bar-chart-03 {
+  &:before {
+    content: $sp-horizontal-bar-chart-03; 
+  }
+}
+.sp-hourglass-01 {
+  &:before {
+    content: $sp-hourglass-01; 
+  }
+}
+.sp-hourglass-02 {
+  &:before {
+    content: $sp-hourglass-02; 
+  }
+}
+.sp-hourglass-03 {
+  &:before {
+    content: $sp-hourglass-03; 
+  }
+}
+.sp-hurricane-01 {
+  &:before {
+    content: $sp-hurricane-01; 
+  }
+}
+.sp-hurricane-02 {
+  &:before {
+    content: $sp-hurricane-02; 
+  }
+}
+.sp-hurricane-03 {
+  &:before {
+    content: $sp-hurricane-03; 
+  }
+}
+.sp-image-01 {
+  &:before {
+    content: $sp-image-01; 
+  }
+}
+.sp-image-02 {
+  &:before {
+    content: $sp-image-02; 
+  }
+}
+.sp-image-03 {
+  &:before {
+    content: $sp-image-03; 
+  }
+}
+.sp-image-04 {
+  &:before {
+    content: $sp-image-04; 
+  }
+}
+.sp-image-05 {
+  &:before {
+    content: $sp-image-05; 
+  }
+}
+.sp-image-check {
+  &:before {
+    content: $sp-image-check; 
+  }
+}
+.sp-image-down {
+  &:before {
+    content: $sp-image-down; 
+  }
+}
+.sp-image-indent-left {
+  &:before {
+    content: $sp-image-indent-left; 
+  }
+}
+.sp-image-indent-right {
+  &:before {
+    content: $sp-image-indent-right; 
+  }
+}
+.sp-image-left {
+  &:before {
+    content: $sp-image-left; 
+  }
+}
+.sp-image-plus {
+  &:before {
+    content: $sp-image-plus; 
+  }
+}
+.sp-image-right {
+  &:before {
+    content: $sp-image-right; 
+  }
+}
+.sp-image-up {
+  &:before {
+    content: $sp-image-up; 
+  }
+}
+.sp-image-user-check {
+  &:before {
+    content: $sp-image-user-check; 
+  }
+}
+.sp-image-user-down {
+  &:before {
+    content: $sp-image-user-down; 
+  }
+}
+.sp-image-user-left {
+  &:before {
+    content: $sp-image-user-left; 
+  }
+}
+.sp-image-user-plus {
+  &:before {
+    content: $sp-image-user-plus; 
+  }
+}
+.sp-image-user-right {
+  &:before {
+    content: $sp-image-user-right; 
+  }
+}
+.sp-image-user-up {
+  &:before {
+    content: $sp-image-user-up; 
+  }
+}
+.sp-image-user-x {
+  &:before {
+    content: $sp-image-user-x; 
+  }
+}
+.sp-image-user {
+  &:before {
+    content: $sp-image-user; 
+  }
+}
+.sp-image-x {
+  &:before {
+    content: $sp-image-x; 
+  }
+}
+.sp-inbox-01 {
+  &:before {
+    content: $sp-inbox-01; 
+  }
+}
+.sp-inbox-02 {
+  &:before {
+    content: $sp-inbox-02; 
+  }
+}
+.sp-infinity {
+  &:before {
+    content: $sp-infinity; 
+  }
+}
+.sp-info-circle {
+  &:before {
+    content: $sp-info-circle; 
+  }
+}
+.sp-info-hexagon {
+  &:before {
+    content: $sp-info-hexagon; 
+  }
+}
+.sp-info-octagon {
+  &:before {
+    content: $sp-info-octagon; 
+  }
+}
+.sp-info-square {
+  &:before {
+    content: $sp-info-square; 
+  }
+}
+.sp-intersect-circle {
+  &:before {
+    content: $sp-intersect-circle; 
+  }
+}
+.sp-intersect-square {
+  &:before {
+    content: $sp-intersect-square; 
+  }
+}
+.sp-italic-01 {
+  &:before {
+    content: $sp-italic-01; 
+  }
+}
+.sp-italic-02 {
+  &:before {
+    content: $sp-italic-02; 
+  }
+}
+.sp-italic-square {
+  &:before {
+    content: $sp-italic-square; 
+  }
+}
+.sp-key-01 {
+  &:before {
+    content: $sp-key-01; 
+  }
+}
+.sp-key-02 {
+  &:before {
+    content: $sp-key-02; 
+  }
+}
+.sp-keyboard-01 {
+  &:before {
+    content: $sp-keyboard-01; 
+  }
+}
+.sp-keyboard-02 {
+  &:before {
+    content: $sp-keyboard-02; 
+  }
+}
+.sp-laptop-01 {
+  &:before {
+    content: $sp-laptop-01; 
+  }
+}
+.sp-laptop-02 {
+  &:before {
+    content: $sp-laptop-02; 
+  }
+}
+.sp-layer-single {
+  &:before {
+    content: $sp-layer-single; 
+  }
+}
+.sp-layers-three-01 {
+  &:before {
+    content: $sp-layers-three-01; 
+  }
+}
+.sp-layers-three-02 {
+  &:before {
+    content: $sp-layers-three-02; 
+  }
+}
+.sp-layers-two-01 {
+  &:before {
+    content: $sp-layers-two-01; 
+  }
+}
+.sp-layers-two-02 {
+  &:before {
+    content: $sp-layers-two-02; 
+  }
+}
+.sp-layout-alt-01 {
+  &:before {
+    content: $sp-layout-alt-01; 
+  }
+}
+.sp-layout-alt-02 {
+  &:before {
+    content: $sp-layout-alt-02; 
+  }
+}
+.sp-layout-alt-03 {
+  &:before {
+    content: $sp-layout-alt-03; 
+  }
+}
+.sp-layout-alt-04 {
+  &:before {
+    content: $sp-layout-alt-04; 
+  }
+}
+.sp-layout-bottom {
+  &:before {
+    content: $sp-layout-bottom; 
+  }
+}
+.sp-layout-grid-01 {
+  &:before {
+    content: $sp-layout-grid-01; 
+  }
+}
+.sp-layout-grid-02 {
+  &:before {
+    content: $sp-layout-grid-02; 
+  }
+}
+.sp-layout-left {
+  &:before {
+    content: $sp-layout-left; 
+  }
+}
+.sp-layout-right {
+  &:before {
+    content: $sp-layout-right; 
+  }
+}
+.sp-layout-top {
+  &:before {
+    content: $sp-layout-top; 
+  }
+}
+.sp-left-indent-01 {
+  &:before {
+    content: $sp-left-indent-01; 
+  }
+}
+.sp-left-indent-02 {
+  &:before {
+    content: $sp-left-indent-02; 
+  }
+}
+.sp-letter-spacing-01 {
+  &:before {
+    content: $sp-letter-spacing-01; 
+  }
+}
+.sp-letter-spacing-02 {
+  &:before {
+    content: $sp-letter-spacing-02; 
+  }
+}
+.sp-life-buoy-01 {
+  &:before {
+    content: $sp-life-buoy-01; 
+  }
+}
+.sp-life-buoy-02 {
+  &:before {
+    content: $sp-life-buoy-02; 
+  }
+}
+.sp-lightbulb-01 {
+  &:before {
+    content: $sp-lightbulb-01; 
+  }
+}
+.sp-lightbulb-02 {
+  &:before {
+    content: $sp-lightbulb-02; 
+  }
+}
+.sp-lightbulb-03 {
+  &:before {
+    content: $sp-lightbulb-03; 
+  }
+}
+.sp-lightbulb-04 {
+  &:before {
+    content: $sp-lightbulb-04; 
+  }
+}
+.sp-lightbulb-05 {
+  &:before {
+    content: $sp-lightbulb-05; 
+  }
+}
+.sp-lightning-01 {
+  &:before {
+    content: $sp-lightning-01; 
+  }
+}
+.sp-lightning-02 {
+  &:before {
+    content: $sp-lightning-02; 
+  }
+}
+.sp-line-chart-down-01 {
+  &:before {
+    content: $sp-line-chart-down-01; 
+  }
+}
+.sp-line-chart-down-02 {
+  &:before {
+    content: $sp-line-chart-down-02; 
+  }
+}
+.sp-line-chart-down-03 {
+  &:before {
+    content: $sp-line-chart-down-03; 
+  }
+}
+.sp-line-chart-down-04 {
+  &:before {
+    content: $sp-line-chart-down-04; 
+  }
+}
+.sp-line-chart-down-05 {
+  &:before {
+    content: $sp-line-chart-down-05; 
+  }
+}
+.sp-line-chart-up-01 {
+  &:before {
+    content: $sp-line-chart-up-01; 
+  }
+}
+.sp-line-chart-up-02 {
+  &:before {
+    content: $sp-line-chart-up-02; 
+  }
+}
+.sp-line-chart-up-03 {
+  &:before {
+    content: $sp-line-chart-up-03; 
+  }
+}
+.sp-line-chart-up-04 {
+  &:before {
+    content: $sp-line-chart-up-04; 
+  }
+}
+.sp-line-chart-up-05 {
+  &:before {
+    content: $sp-line-chart-up-05; 
+  }
+}
+.sp-line-height {
+  &:before {
+    content: $sp-line-height; 
+  }
+}
+.sp-link-01 {
+  &:before {
+    content: $sp-link-01; 
+  }
+}
+.sp-link-02 {
+  &:before {
+    content: $sp-link-02; 
+  }
+}
+.sp-link-03 {
+  &:before {
+    content: $sp-link-03; 
+  }
+}
+.sp-link-04 {
+  &:before {
+    content: $sp-link-04; 
+  }
+}
+.sp-link-05 {
+  &:before {
+    content: $sp-link-05; 
+  }
+}
+.sp-link-broken-01 {
+  &:before {
+    content: $sp-link-broken-01; 
+  }
+}
+.sp-link-broken-02 {
+  &:before {
+    content: $sp-link-broken-02; 
+  }
+}
+.sp-link-external-01 {
+  &:before {
+    content: $sp-link-external-01; 
+  }
+}
+.sp-link-external-02 {
+  &:before {
+    content: $sp-link-external-02; 
+  }
+}
+.sp-list {
+  &:before {
+    content: $sp-list; 
+  }
+}
+.sp-loading-01 {
+  &:before {
+    content: $sp-loading-01; 
+  }
+}
+.sp-loading-02 {
+  &:before {
+    content: $sp-loading-02; 
+  }
+}
+.sp-loading-03 {
+  &:before {
+    content: $sp-loading-03; 
+  }
+}
+.sp-lock-01 {
+  &:before {
+    content: $sp-lock-01; 
+  }
+}
+.sp-lock-02 {
+  &:before {
+    content: $sp-lock-02; 
+  }
+}
+.sp-lock-03 {
+  &:before {
+    content: $sp-lock-03; 
+  }
+}
+.sp-lock-04 {
+  &:before {
+    content: $sp-lock-04; 
+  }
+}
+.sp-lock-keyhole-circle {
+  &:before {
+    content: $sp-lock-keyhole-circle; 
+  }
+}
+.sp-lock-keyhole-square {
+  &:before {
+    content: $sp-lock-keyhole-square; 
+  }
+}
+.sp-lock-unlocked-01 {
+  &:before {
+    content: $sp-lock-unlocked-01; 
+  }
+}
+.sp-lock-unlocked-02 {
+  &:before {
+    content: $sp-lock-unlocked-02; 
+  }
+}
+.sp-lock-unlocked-03 {
+  &:before {
+    content: $sp-lock-unlocked-03; 
+  }
+}
+.sp-lock-unlocked-04 {
+  &:before {
+    content: $sp-lock-unlocked-04; 
+  }
+}
+.sp-log-in-01 {
+  &:before {
+    content: $sp-log-in-01; 
+  }
+}
+.sp-log-in-02 {
+  &:before {
+    content: $sp-log-in-02; 
+  }
+}
+.sp-log-in-03 {
+  &:before {
+    content: $sp-log-in-03; 
+  }
+}
+.sp-log-in-04 {
+  &:before {
+    content: $sp-log-in-04; 
+  }
+}
+.sp-log-out-01 {
+  &:before {
+    content: $sp-log-out-01; 
+  }
+}
+.sp-log-out-02 {
+  &:before {
+    content: $sp-log-out-02; 
+  }
+}
+.sp-log-out-03 {
+  &:before {
+    content: $sp-log-out-03; 
+  }
+}
+.sp-log-out-04 {
+  &:before {
+    content: $sp-log-out-04; 
+  }
+}
+.sp-luggage-01 {
+  &:before {
+    content: $sp-luggage-01; 
+  }
+}
+.sp-luggage-02 {
+  &:before {
+    content: $sp-luggage-02; 
+  }
+}
+.sp-luggage-03 {
+  &:before {
+    content: $sp-luggage-03; 
+  }
+}
+.sp-magic-wand-01 {
+  &:before {
+    content: $sp-magic-wand-01; 
+  }
+}
+.sp-magic-wand-02 {
+  &:before {
+    content: $sp-magic-wand-02; 
+  }
+}
+.sp-mail-01 {
+  &:before {
+    content: $sp-mail-01; 
+  }
+}
+.sp-mail-02 {
+  &:before {
+    content: $sp-mail-02; 
+  }
+}
+.sp-mail-03 {
+  &:before {
+    content: $sp-mail-03; 
+  }
+}
+.sp-mail-04 {
+  &:before {
+    content: $sp-mail-04; 
+  }
+}
+.sp-mail-05 {
+  &:before {
+    content: $sp-mail-05; 
+  }
+}
+.sp-map-01 {
+  &:before {
+    content: $sp-map-01; 
+  }
+}
+.sp-map-02 {
+  &:before {
+    content: $sp-map-02; 
+  }
+}
+.sp-mark {
+  &:before {
+    content: $sp-mark; 
+  }
+}
+.sp-marker-pin-01 {
+  &:before {
+    content: $sp-marker-pin-01; 
+  }
+}
+.sp-marker-pin-02 {
+  &:before {
+    content: $sp-marker-pin-02; 
+  }
+}
+.sp-marker-pin-03 {
+  &:before {
+    content: $sp-marker-pin-03; 
+  }
+}
+.sp-marker-pin-04 {
+  &:before {
+    content: $sp-marker-pin-04; 
+  }
+}
+.sp-marker-pin-05 {
+  &:before {
+    content: $sp-marker-pin-05; 
+  }
+}
+.sp-marker-pin-06 {
+  &:before {
+    content: $sp-marker-pin-06; 
+  }
+}
+.sp-maximize-01 {
+  &:before {
+    content: $sp-maximize-01; 
+  }
+}
+.sp-maximize-02 {
+  &:before {
+    content: $sp-maximize-02; 
+  }
+}
+.sp-medical-circle {
+  &:before {
+    content: $sp-medical-circle; 
+  }
+}
+.sp-medical-cross {
+  &:before {
+    content: $sp-medical-cross; 
+  }
+}
+.sp-medical-square {
+  &:before {
+    content: $sp-medical-square; 
+  }
+}
+.sp-menu-01 {
+  &:before {
+    content: $sp-menu-01; 
+  }
+}
+.sp-menu-02 {
+  &:before {
+    content: $sp-menu-02; 
+  }
+}
+.sp-menu-03 {
+  &:before {
+    content: $sp-menu-03; 
+  }
+}
+.sp-menu-04 {
+  &:before {
+    content: $sp-menu-04; 
+  }
+}
+.sp-menu-05 {
+  &:before {
+    content: $sp-menu-05; 
+  }
+}
+.sp-message-alert-circle {
+  &:before {
+    content: $sp-message-alert-circle; 
+  }
+}
+.sp-message-alert-square {
+  &:before {
+    content: $sp-message-alert-square; 
+  }
+}
+.sp-message-chat-circle {
+  &:before {
+    content: $sp-message-chat-circle; 
+  }
+}
+.sp-message-chat-square {
+  &:before {
+    content: $sp-message-chat-square; 
+  }
+}
+.sp-message-check-circle {
+  &:before {
+    content: $sp-message-check-circle; 
+  }
+}
+.sp-message-check-square {
+  &:before {
+    content: $sp-message-check-square; 
+  }
+}
+.sp-message-circle-01 {
+  &:before {
+    content: $sp-message-circle-01; 
+  }
+}
+.sp-message-circle-02 {
+  &:before {
+    content: $sp-message-circle-02; 
+  }
+}
+.sp-message-dots-circle {
+  &:before {
+    content: $sp-message-dots-circle; 
+  }
+}
+.sp-message-dots-square {
+  &:before {
+    content: $sp-message-dots-square; 
+  }
+}
+.sp-message-heart-circle {
+  &:before {
+    content: $sp-message-heart-circle; 
+  }
+}
+.sp-message-heart-square {
+  &:before {
+    content: $sp-message-heart-square; 
+  }
+}
+.sp-message-notification-circle {
+  &:before {
+    content: $sp-message-notification-circle; 
+  }
+}
+.sp-message-notification-square {
+  &:before {
+    content: $sp-message-notification-square; 
+  }
+}
+.sp-message-plus-circle {
+  &:before {
+    content: $sp-message-plus-circle; 
+  }
+}
+.sp-message-plus-square {
+  &:before {
+    content: $sp-message-plus-square; 
+  }
+}
+.sp-message-question-circle {
+  &:before {
+    content: $sp-message-question-circle; 
+  }
+}
+.sp-message-question-square {
+  &:before {
+    content: $sp-message-question-square; 
+  }
+}
+.sp-message-smile-circle {
+  &:before {
+    content: $sp-message-smile-circle; 
+  }
+}
+.sp-message-smile-square {
+  &:before {
+    content: $sp-message-smile-square; 
+  }
+}
+.sp-message-square-01 {
+  &:before {
+    content: $sp-message-square-01; 
+  }
+}
+.sp-message-square-02 {
+  &:before {
+    content: $sp-message-square-02; 
+  }
+}
+.sp-message-text-circle-01 {
+  &:before {
+    content: $sp-message-text-circle-01; 
+  }
+}
+.sp-message-text-circle-02 {
+  &:before {
+    content: $sp-message-text-circle-02; 
+  }
+}
+.sp-message-text-square-01 {
+  &:before {
+    content: $sp-message-text-square-01; 
+  }
+}
+.sp-message-text-square-02 {
+  &:before {
+    content: $sp-message-text-square-02; 
+  }
+}
+.sp-message-x-circle {
+  &:before {
+    content: $sp-message-x-circle; 
+  }
+}
+.sp-message-x-square {
+  &:before {
+    content: $sp-message-x-square; 
+  }
+}
+.sp-microphone-01 {
+  &:before {
+    content: $sp-microphone-01; 
+  }
+}
+.sp-microphone-02 {
+  &:before {
+    content: $sp-microphone-02; 
+  }
+}
+.sp-microphone-off-01 {
+  &:before {
+    content: $sp-microphone-off-01; 
+  }
+}
+.sp-microphone-off-02 {
+  &:before {
+    content: $sp-microphone-off-02; 
+  }
+}
+.sp-microscope {
+  &:before {
+    content: $sp-microscope; 
+  }
+}
+.sp-minimize-01 {
+  &:before {
+    content: $sp-minimize-01; 
+  }
+}
+.sp-minimize-02 {
+  &:before {
+    content: $sp-minimize-02; 
+  }
+}
+.sp-minus-circle {
+  &:before {
+    content: $sp-minus-circle; 
+  }
+}
+.sp-minus-square {
+  &:before {
+    content: $sp-minus-square; 
+  }
+}
+.sp-minus {
+  &:before {
+    content: $sp-minus; 
+  }
+}
+.sp-modem-01 {
+  &:before {
+    content: $sp-modem-01; 
+  }
+}
+.sp-modem-02 {
+  &:before {
+    content: $sp-modem-02; 
+  }
+}
+.sp-monitor-01 {
+  &:before {
+    content: $sp-monitor-01; 
+  }
+}
+.sp-monitor-02 {
+  &:before {
+    content: $sp-monitor-02; 
+  }
+}
+.sp-monitor-03 {
+  &:before {
+    content: $sp-monitor-03; 
+  }
+}
+.sp-monitor-04 {
+  &:before {
+    content: $sp-monitor-04; 
+  }
+}
+.sp-monitor-05 {
+  &:before {
+    content: $sp-monitor-05; 
+  }
+}
+.sp-moon-01 {
+  &:before {
+    content: $sp-moon-01; 
+  }
+}
+.sp-moon-02 {
+  &:before {
+    content: $sp-moon-02; 
+  }
+}
+.sp-moon-eclipse {
+  &:before {
+    content: $sp-moon-eclipse; 
+  }
+}
+.sp-moon-star {
+  &:before {
+    content: $sp-moon-star; 
+  }
+}
+.sp-mouse {
+  &:before {
+    content: $sp-mouse; 
+  }
+}
+.sp-move {
+  &:before {
+    content: $sp-move; 
+  }
+}
+.sp-music-note-01 {
+  &:before {
+    content: $sp-music-note-01; 
+  }
+}
+.sp-music-note-02 {
+  &:before {
+    content: $sp-music-note-02; 
+  }
+}
+.sp-music-note-plus {
+  &:before {
+    content: $sp-music-note-plus; 
+  }
+}
+.sp-navigation-pointer-01 {
+  &:before {
+    content: $sp-navigation-pointer-01; 
+  }
+}
+.sp-navigation-pointer-02 {
+  &:before {
+    content: $sp-navigation-pointer-02; 
+  }
+}
+.sp-navigation-pointer-off-01 {
+  &:before {
+    content: $sp-navigation-pointer-off-01; 
+  }
+}
+.sp-navigation-pointer-off-02 {
+  &:before {
+    content: $sp-navigation-pointer-off-02; 
+  }
+}
+.sp-notification-box {
+  &:before {
+    content: $sp-notification-box; 
+  }
+}
+.sp-notification-message {
+  &:before {
+    content: $sp-notification-message; 
+  }
+}
+.sp-notification-text {
+  &:before {
+    content: $sp-notification-text; 
+  }
+}
+.sp-octagon {
+  &:before {
+    content: $sp-octagon; 
+  }
+}
+.sp-package-check {
+  &:before {
+    content: $sp-package-check; 
+  }
+}
+.sp-package-minus {
+  &:before {
+    content: $sp-package-minus; 
+  }
+}
+.sp-package-plus {
+  &:before {
+    content: $sp-package-plus; 
+  }
+}
+.sp-package-search {
+  &:before {
+    content: $sp-package-search; 
+  }
+}
+.sp-package-x {
+  &:before {
+    content: $sp-package-x; 
+  }
+}
+.sp-package {
+  &:before {
+    content: $sp-package; 
+  }
+}
+.sp-paint-pour {
+  &:before {
+    content: $sp-paint-pour; 
+  }
+}
+.sp-paint {
+  &:before {
+    content: $sp-paint; 
+  }
+}
+.sp-palette {
+  &:before {
+    content: $sp-palette; 
+  }
+}
+.sp-paperclip {
+  &:before {
+    content: $sp-paperclip; 
+  }
+}
+.sp-paragraph-spacing {
+  &:before {
+    content: $sp-paragraph-spacing; 
+  }
+}
+.sp-paragraph-wrap {
+  &:before {
+    content: $sp-paragraph-wrap; 
+  }
+}
+.sp-passcode-lock {
+  &:before {
+    content: $sp-passcode-lock; 
+  }
+}
+.sp-passcode {
+  &:before {
+    content: $sp-passcode; 
+  }
+}
+.sp-passport {
+  &:before {
+    content: $sp-passport; 
+  }
+}
+.sp-pause-circle {
+  &:before {
+    content: $sp-pause-circle; 
+  }
+}
+.sp-pause-square {
+  &:before {
+    content: $sp-pause-square; 
+  }
+}
+.sp-pen-tool-01 {
+  &:before {
+    content: $sp-pen-tool-01; 
+  }
+}
+.sp-pen-tool-02 {
+  &:before {
+    content: $sp-pen-tool-02; 
+  }
+}
+.sp-pen-tool-minus {
+  &:before {
+    content: $sp-pen-tool-minus; 
+  }
+}
+.sp-pen-tool-plus {
+  &:before {
+    content: $sp-pen-tool-plus; 
+  }
+}
+.sp-pencil-01 {
+  &:before {
+    content: $sp-pencil-01; 
+  }
+}
+.sp-pencil-02 {
+  &:before {
+    content: $sp-pencil-02; 
+  }
+}
+.sp-pencil-line {
+  &:before {
+    content: $sp-pencil-line; 
+  }
+}
+.sp-pentagon {
+  &:before {
+    content: $sp-pentagon; 
+  }
+}
+.sp-percent-01 {
+  &:before {
+    content: $sp-percent-01; 
+  }
+}
+.sp-percent-02 {
+  &:before {
+    content: $sp-percent-02; 
+  }
+}
+.sp-percent-03 {
+  &:before {
+    content: $sp-percent-03; 
+  }
+}
+.sp-perspective-01 {
+  &:before {
+    content: $sp-perspective-01; 
+  }
+}
+.sp-perspective-02 {
+  &:before {
+    content: $sp-perspective-02; 
+  }
+}
+.sp-phone-01 {
+  &:before {
+    content: $sp-phone-01; 
+  }
+}
+.sp-phone-02 {
+  &:before {
+    content: $sp-phone-02; 
+  }
+}
+.sp-phone-call-01 {
+  &:before {
+    content: $sp-phone-call-01; 
+  }
+}
+.sp-phone-call-02 {
+  &:before {
+    content: $sp-phone-call-02; 
+  }
+}
+.sp-phone-hang-up {
+  &:before {
+    content: $sp-phone-hang-up; 
+  }
+}
+.sp-phone-incoming-01 {
+  &:before {
+    content: $sp-phone-incoming-01; 
+  }
+}
+.sp-phone-incoming-02 {
+  &:before {
+    content: $sp-phone-incoming-02; 
+  }
+}
+.sp-phone-outgoing-01 {
+  &:before {
+    content: $sp-phone-outgoing-01; 
+  }
+}
+.sp-phone-outgoing-02 {
+  &:before {
+    content: $sp-phone-outgoing-02; 
+  }
+}
+.sp-phone-pause {
+  &:before {
+    content: $sp-phone-pause; 
+  }
+}
+.sp-phone-plus {
+  &:before {
+    content: $sp-phone-plus; 
+  }
+}
+.sp-phone-x {
+  &:before {
+    content: $sp-phone-x; 
+  }
+}
+.sp-phone {
+  &:before {
+    content: $sp-phone; 
+  }
+}
+.sp-pie-chart-01 {
+  &:before {
+    content: $sp-pie-chart-01; 
+  }
+}
+.sp-pie-chart-02 {
+  &:before {
+    content: $sp-pie-chart-02; 
+  }
+}
+.sp-pie-chart-03 {
+  &:before {
+    content: $sp-pie-chart-03; 
+  }
+}
+.sp-pie-chart-04 {
+  &:before {
+    content: $sp-pie-chart-04; 
+  }
+}
+.sp-piggy-bank-01 {
+  &:before {
+    content: $sp-piggy-bank-01; 
+  }
+}
+.sp-piggy-bank-02 {
+  &:before {
+    content: $sp-piggy-bank-02; 
+  }
+}
+.sp-pilcrow-01 {
+  &:before {
+    content: $sp-pilcrow-01; 
+  }
+}
+.sp-pilcrow-02 {
+  &:before {
+    content: $sp-pilcrow-02; 
+  }
+}
+.sp-pilcrow-square {
+  &:before {
+    content: $sp-pilcrow-square; 
+  }
+}
+.sp-pin-01 {
+  &:before {
+    content: $sp-pin-01; 
+  }
+}
+.sp-pin-02 {
+  &:before {
+    content: $sp-pin-02; 
+  }
+}
+.sp-placeholder {
+  &:before {
+    content: $sp-placeholder; 
+  }
+}
+.sp-plane {
+  &:before {
+    content: $sp-plane; 
+  }
+}
+.sp-play-circle {
+  &:before {
+    content: $sp-play-circle; 
+  }
+}
+.sp-play-square {
+  &:before {
+    content: $sp-play-square; 
+  }
+}
+.sp-play {
+  &:before {
+    content: $sp-play; 
+  }
+}
+.sp-plus-circle {
+  &:before {
+    content: $sp-plus-circle; 
+  }
+}
+.sp-plus-square {
+  &:before {
+    content: $sp-plus-square; 
+  }
+}
+.sp-plus {
+  &:before {
+    content: $sp-plus; 
+  }
+}
+.sp-podcast {
+  &:before {
+    content: $sp-podcast; 
+  }
+}
+.sp-power-01 {
+  &:before {
+    content: $sp-power-01; 
+  }
+}
+.sp-power-02 {
+  &:before {
+    content: $sp-power-02; 
+  }
+}
+.sp-power-03 {
+  &:before {
+    content: $sp-power-03; 
+  }
+}
+.sp-presentation-chart-01 {
+  &:before {
+    content: $sp-presentation-chart-01; 
+  }
+}
+.sp-presentation-chart-02 {
+  &:before {
+    content: $sp-presentation-chart-02; 
+  }
+}
+.sp-presentation-chart-03 {
+  &:before {
+    content: $sp-presentation-chart-03; 
+  }
+}
+.sp-printer {
+  &:before {
+    content: $sp-printer; 
+  }
+}
+.sp-puzzle-piece-01 {
+  &:before {
+    content: $sp-puzzle-piece-01; 
+  }
+}
+.sp-puzzle-piece-02 {
+  &:before {
+    content: $sp-puzzle-piece-02; 
+  }
+}
+.sp-qr-code-01 {
+  &:before {
+    content: $sp-qr-code-01; 
+  }
+}
+.sp-qr-code-02 {
+  &:before {
+    content: $sp-qr-code-02; 
+  }
+}
+.sp-receipt-check {
+  &:before {
+    content: $sp-receipt-check; 
+  }
+}
+.sp-receipt {
+  &:before {
+    content: $sp-receipt; 
+  }
+}
+.sp-recording-01 {
+  &:before {
+    content: $sp-recording-01; 
+  }
+}
+.sp-recording-02 {
+  &:before {
+    content: $sp-recording-02; 
+  }
+}
+.sp-recording-03 {
+  &:before {
+    content: $sp-recording-03; 
+  }
+}
+.sp-reflect-01 {
+  &:before {
+    content: $sp-reflect-01; 
+  }
+}
+.sp-reflect-02 {
+  &:before {
+    content: $sp-reflect-02; 
+  }
+}
+.sp-refresh-ccw-01 {
+  &:before {
+    content: $sp-refresh-ccw-01; 
+  }
+}
+.sp-refresh-ccw-02 {
+  &:before {
+    content: $sp-refresh-ccw-02; 
+  }
+}
+.sp-refresh-ccw-03 {
+  &:before {
+    content: $sp-refresh-ccw-03; 
+  }
+}
+.sp-refresh-ccw-04 {
+  &:before {
+    content: $sp-refresh-ccw-04; 
+  }
+}
+.sp-refresh-ccw-05 {
+  &:before {
+    content: $sp-refresh-ccw-05; 
+  }
+}
+.sp-refresh-cw-01 {
+  &:before {
+    content: $sp-refresh-cw-01; 
+  }
+}
+.sp-refresh-cw-02 {
+  &:before {
+    content: $sp-refresh-cw-02; 
+  }
+}
+.sp-refresh-cw-03 {
+  &:before {
+    content: $sp-refresh-cw-03; 
+  }
+}
+.sp-refresh-cw-04 {
+  &:before {
+    content: $sp-refresh-cw-04; 
+  }
+}
+.sp-refresh-cw-05 {
+  &:before {
+    content: $sp-refresh-cw-05; 
+  }
+}
+.sp-repeat-01 {
+  &:before {
+    content: $sp-repeat-01; 
+  }
+}
+.sp-repeat-02 {
+  &:before {
+    content: $sp-repeat-02; 
+  }
+}
+.sp-repeat-03 {
+  &:before {
+    content: $sp-repeat-03; 
+  }
+}
+.sp-repeat-04 {
+  &:before {
+    content: $sp-repeat-04; 
+  }
+}
+.sp-reverse-left {
+  &:before {
+    content: $sp-reverse-left; 
+  }
+}
+.sp-reverse-right {
+  &:before {
+    content: $sp-reverse-right; 
+  }
+}
+.sp-right-indent-01 {
+  &:before {
+    content: $sp-right-indent-01; 
+  }
+}
+.sp-right-indent-02 {
+  &:before {
+    content: $sp-right-indent-02; 
+  }
+}
+.sp-rocket-01 {
+  &:before {
+    content: $sp-rocket-01; 
+  }
+}
+.sp-rocket-02 {
+  &:before {
+    content: $sp-rocket-02; 
+  }
+}
+.sp-roller-brush {
+  &:before {
+    content: $sp-roller-brush; 
+  }
+}
+.sp-route {
+  &:before {
+    content: $sp-route; 
+  }
+}
+.sp-rows-01 {
+  &:before {
+    content: $sp-rows-01; 
+  }
+}
+.sp-rows-02 {
+  &:before {
+    content: $sp-rows-02; 
+  }
+}
+.sp-rows-03 {
+  &:before {
+    content: $sp-rows-03; 
+  }
+}
+.sp-rss-01 {
+  &:before {
+    content: $sp-rss-01; 
+  }
+}
+.sp-rss-02 {
+  &:before {
+    content: $sp-rss-02; 
+  }
+}
+.sp-ruler {
+  &:before {
+    content: $sp-ruler; 
+  }
+}
+.sp-safe {
+  &:before {
+    content: $sp-safe; 
+  }
+}
+.sp-sale-01 {
+  &:before {
+    content: $sp-sale-01; 
+  }
+}
+.sp-sale-02 {
+  &:before {
+    content: $sp-sale-02; 
+  }
+}
+.sp-sale-03 {
+  &:before {
+    content: $sp-sale-03; 
+  }
+}
+.sp-sale-04 {
+  &:before {
+    content: $sp-sale-04; 
+  }
+}
+.sp-save-01 {
+  &:before {
+    content: $sp-save-01; 
+  }
+}
+.sp-save-02 {
+  &:before {
+    content: $sp-save-02; 
+  }
+}
+.sp-save-03 {
+  &:before {
+    content: $sp-save-03; 
+  }
+}
+.sp-scale-01 {
+  &:before {
+    content: $sp-scale-01; 
+  }
+}
+.sp-scale-02 {
+  &:before {
+    content: $sp-scale-02; 
+  }
+}
+.sp-scale-03 {
+  &:before {
+    content: $sp-scale-03; 
+  }
+}
+.sp-scales-01 {
+  &:before {
+    content: $sp-scales-01; 
+  }
+}
+.sp-scales-02 {
+  &:before {
+    content: $sp-scales-02; 
+  }
+}
+.sp-scan {
+  &:before {
+    content: $sp-scan; 
+  }
+}
+.sp-scissors-01 {
+  &:before {
+    content: $sp-scissors-01; 
+  }
+}
+.sp-scissors-02 {
+  &:before {
+    content: $sp-scissors-02; 
+  }
+}
+.sp-scissors-cut-01 {
+  &:before {
+    content: $sp-scissors-cut-01; 
+  }
+}
+.sp-scissors-cut-02 {
+  &:before {
+    content: $sp-scissors-cut-02; 
+  }
+}
+.sp-search-lg {
+  &:before {
+    content: $sp-search-lg; 
+  }
+}
+.sp-search-md {
+  &:before {
+    content: $sp-search-md; 
+  }
+}
+.sp-search-refraction {
+  &:before {
+    content: $sp-search-refraction; 
+  }
+}
+.sp-search-sm {
+  &:before {
+    content: $sp-search-sm; 
+  }
+}
+.sp-send-01 {
+  &:before {
+    content: $sp-send-01; 
+  }
+}
+.sp-send-02 {
+  &:before {
+    content: $sp-send-02; 
+  }
+}
+.sp-send-03 {
+  &:before {
+    content: $sp-send-03; 
+  }
+}
+.sp-server-01 {
+  &:before {
+    content: $sp-server-01; 
+  }
+}
+.sp-server-02 {
+  &:before {
+    content: $sp-server-02; 
+  }
+}
+.sp-server-03 {
+  &:before {
+    content: $sp-server-03; 
+  }
+}
+.sp-server-04 {
+  &:before {
+    content: $sp-server-04; 
+  }
+}
+.sp-server-05 {
+  &:before {
+    content: $sp-server-05; 
+  }
+}
+.sp-server-06 {
+  &:before {
+    content: $sp-server-06; 
+  }
+}
+.sp-settings-01 {
+  &:before {
+    content: $sp-settings-01; 
+  }
+}
+.sp-settings-02 {
+  &:before {
+    content: $sp-settings-02; 
+  }
+}
+.sp-settings-03 {
+  &:before {
+    content: $sp-settings-03; 
+  }
+}
+.sp-settings-04 {
+  &:before {
+    content: $sp-settings-04; 
+  }
+}
+.sp-share-01 {
+  &:before {
+    content: $sp-share-01; 
+  }
+}
+.sp-share-02 {
+  &:before {
+    content: $sp-share-02; 
+  }
+}
+.sp-share-03 {
+  &:before {
+    content: $sp-share-03; 
+  }
+}
+.sp-share-04 {
+  &:before {
+    content: $sp-share-04; 
+  }
+}
+.sp-share-05 {
+  &:before {
+    content: $sp-share-05; 
+  }
+}
+.sp-share-06 {
+  &:before {
+    content: $sp-share-06; 
+  }
+}
+.sp-share-07 {
+  &:before {
+    content: $sp-share-07; 
+  }
+}
+.sp-shield-01 {
+  &:before {
+    content: $sp-shield-01; 
+  }
+}
+.sp-shield-02 {
+  &:before {
+    content: $sp-shield-02; 
+  }
+}
+.sp-shield-03 {
+  &:before {
+    content: $sp-shield-03; 
+  }
+}
+.sp-shield-dollar {
+  &:before {
+    content: $sp-shield-dollar; 
+  }
+}
+.sp-shield-off {
+  &:before {
+    content: $sp-shield-off; 
+  }
+}
+.sp-shield-plus {
+  &:before {
+    content: $sp-shield-plus; 
+  }
+}
+.sp-shield-tick {
+  &:before {
+    content: $sp-shield-tick; 
+  }
+}
+.sp-shield-zap {
+  &:before {
+    content: $sp-shield-zap; 
+  }
+}
+.sp-shopping-bag-01 {
+  &:before {
+    content: $sp-shopping-bag-01; 
+  }
+}
+.sp-shopping-bag-02 {
+  &:before {
+    content: $sp-shopping-bag-02; 
+  }
+}
+.sp-shopping-bag-03 {
+  &:before {
+    content: $sp-shopping-bag-03; 
+  }
+}
+.sp-shopping-cart-01 {
+  &:before {
+    content: $sp-shopping-cart-01; 
+  }
+}
+.sp-shopping-cart-02 {
+  &:before {
+    content: $sp-shopping-cart-02; 
+  }
+}
+.sp-shopping-cart-03 {
+  &:before {
+    content: $sp-shopping-cart-03; 
+  }
+}
+.sp-shuffle-01 {
+  &:before {
+    content: $sp-shuffle-01; 
+  }
+}
+.sp-shuffle-02 {
+  &:before {
+    content: $sp-shuffle-02; 
+  }
+}
+.sp-signal-01 {
+  &:before {
+    content: $sp-signal-01; 
+  }
+}
+.sp-signal-02 {
+  &:before {
+    content: $sp-signal-02; 
+  }
+}
+.sp-signal-03 {
+  &:before {
+    content: $sp-signal-03; 
+  }
+}
+.sp-simcard {
+  &:before {
+    content: $sp-simcard; 
+  }
+}
+.sp-skew {
+  &:before {
+    content: $sp-skew; 
+  }
+}
+.sp-skip-back {
+  &:before {
+    content: $sp-skip-back; 
+  }
+}
+.sp-skip-forward {
+  &:before {
+    content: $sp-skip-forward; 
+  }
+}
+.sp-slash-circle-01 {
+  &:before {
+    content: $sp-slash-circle-01; 
+  }
+}
+.sp-slash-circle-02 {
+  &:before {
+    content: $sp-slash-circle-02; 
+  }
+}
+.sp-slash-divider {
+  &:before {
+    content: $sp-slash-divider; 
+  }
+}
+.sp-slash-octagon {
+  &:before {
+    content: $sp-slash-octagon; 
+  }
+}
+.sp-sliders-01 {
+  &:before {
+    content: $sp-sliders-01; 
+  }
+}
+.sp-sliders-02 {
+  &:before {
+    content: $sp-sliders-02; 
+  }
+}
+.sp-sliders-03 {
+  &:before {
+    content: $sp-sliders-03; 
+  }
+}
+.sp-sliders-04 {
+  &:before {
+    content: $sp-sliders-04; 
+  }
+}
+.sp-snowflake-01 {
+  &:before {
+    content: $sp-snowflake-01; 
+  }
+}
+.sp-snowflake-02 {
+  &:before {
+    content: $sp-snowflake-02; 
+  }
+}
+.sp-spacing-height-01 {
+  &:before {
+    content: $sp-spacing-height-01; 
+  }
+}
+.sp-spacing-height-02 {
+  &:before {
+    content: $sp-spacing-height-02; 
+  }
+}
+.sp-spacing-width-01 {
+  &:before {
+    content: $sp-spacing-width-01; 
+  }
+}
+.sp-spacing-width-02 {
+  &:before {
+    content: $sp-spacing-width-02; 
+  }
+}
+.sp-speaker-01 {
+  &:before {
+    content: $sp-speaker-01; 
+  }
+}
+.sp-speaker-02 {
+  &:before {
+    content: $sp-speaker-02; 
+  }
+}
+.sp-speaker-03 {
+  &:before {
+    content: $sp-speaker-03; 
+  }
+}
+.sp-speedometer-01 {
+  &:before {
+    content: $sp-speedometer-01; 
+  }
+}
+.sp-speedometer-02 {
+  &:before {
+    content: $sp-speedometer-02; 
+  }
+}
+.sp-speedometer-03 {
+  &:before {
+    content: $sp-speedometer-03; 
+  }
+}
+.sp-speedometer-04 {
+  &:before {
+    content: $sp-speedometer-04; 
+  }
+}
+.sp-square {
+  &:before {
+    content: $sp-square; 
+  }
+}
+.sp-stand {
+  &:before {
+    content: $sp-stand; 
+  }
+}
+.sp-star-01 {
+  &:before {
+    content: $sp-star-01; 
+  }
+}
+.sp-star-02 {
+  &:before {
+    content: $sp-star-02; 
+  }
+}
+.sp-star-03 {
+  &:before {
+    content: $sp-star-03; 
+  }
+}
+.sp-star-04 {
+  &:before {
+    content: $sp-star-04; 
+  }
+}
+.sp-star-05 {
+  &:before {
+    content: $sp-star-05; 
+  }
+}
+.sp-star-06 {
+  &:before {
+    content: $sp-star-06; 
+  }
+}
+.sp-star-07 {
+  &:before {
+    content: $sp-star-07; 
+  }
+}
+.sp-stars-01 {
+  &:before {
+    content: $sp-stars-01; 
+  }
+}
+.sp-stars-02 {
+  &:before {
+    content: $sp-stars-02; 
+  }
+}
+.sp-stars-03 {
+  &:before {
+    content: $sp-stars-03; 
+  }
+}
+.sp-sticker-circle {
+  &:before {
+    content: $sp-sticker-circle; 
+  }
+}
+.sp-sticker-square {
+  &:before {
+    content: $sp-sticker-square; 
+  }
+}
+.sp-stop-circle {
+  &:before {
+    content: $sp-stop-circle; 
+  }
+}
+.sp-stop-square {
+  &:before {
+    content: $sp-stop-square; 
+  }
+}
+.sp-stop {
+  &:before {
+    content: $sp-stop; 
+  }
+}
+.sp-strikethrough-01 {
+  &:before {
+    content: $sp-strikethrough-01; 
+  }
+}
+.sp-strikethrough-02 {
+  &:before {
+    content: $sp-strikethrough-02; 
+  }
+}
+.sp-strikethrough-square {
+  &:before {
+    content: $sp-strikethrough-square; 
+  }
+}
+.sp-subscript {
+  &:before {
+    content: $sp-subscript; 
+  }
+}
+.sp-sun-setting-01 {
+  &:before {
+    content: $sp-sun-setting-01; 
+  }
+}
+.sp-sun-setting-02 {
+  &:before {
+    content: $sp-sun-setting-02; 
+  }
+}
+.sp-sun-setting-03 {
+  &:before {
+    content: $sp-sun-setting-03; 
+  }
+}
+.sp-sun {
+  &:before {
+    content: $sp-sun; 
+  }
+}
+.sp-sunrise {
+  &:before {
+    content: $sp-sunrise; 
+  }
+}
+.sp-sunset {
+  &:before {
+    content: $sp-sunset; 
+  }
+}
+.sp-switch-horizontal-01 {
+  &:before {
+    content: $sp-switch-horizontal-01; 
+  }
+}
+.sp-switch-horizontal-02 {
+  &:before {
+    content: $sp-switch-horizontal-02; 
+  }
+}
+.sp-switch-vertical-01 {
+  &:before {
+    content: $sp-switch-vertical-01; 
+  }
+}
+.sp-switch-vertical-02 {
+  &:before {
+    content: $sp-switch-vertical-02; 
+  }
+}
+.sp-table {
+  &:before {
+    content: $sp-table; 
+  }
+}
+.sp-tablet-01 {
+  &:before {
+    content: $sp-tablet-01; 
+  }
+}
+.sp-tablet-02 {
+  &:before {
+    content: $sp-tablet-02; 
+  }
+}
+.sp-tag-01 {
+  &:before {
+    content: $sp-tag-01; 
+  }
+}
+.sp-tag-02 {
+  &:before {
+    content: $sp-tag-02; 
+  }
+}
+.sp-tag-03 {
+  &:before {
+    content: $sp-tag-03; 
+  }
+}
+.sp-target-01 {
+  &:before {
+    content: $sp-target-01; 
+  }
+}
+.sp-target-02 {
+  &:before {
+    content: $sp-target-02; 
+  }
+}
+.sp-target-03 {
+  &:before {
+    content: $sp-target-03; 
+  }
+}
+.sp-target-04 {
+  &:before {
+    content: $sp-target-04; 
+  }
+}
+.sp-target-05 {
+  &:before {
+    content: $sp-target-05; 
+  }
+}
+.sp-telescope {
+  &:before {
+    content: $sp-telescope; 
+  }
+}
+.sp-terminal-browser {
+  &:before {
+    content: $sp-terminal-browser; 
+  }
+}
+.sp-terminal-circle {
+  &:before {
+    content: $sp-terminal-circle; 
+  }
+}
+.sp-terminal-square {
+  &:before {
+    content: $sp-terminal-square; 
+  }
+}
+.sp-terminal {
+  &:before {
+    content: $sp-terminal; 
+  }
+}
+.sp-text-input {
+  &:before {
+    content: $sp-text-input; 
+  }
+}
+.sp-thermometer-01 {
+  &:before {
+    content: $sp-thermometer-01; 
+  }
+}
+.sp-thermometer-02 {
+  &:before {
+    content: $sp-thermometer-02; 
+  }
+}
+.sp-thermometer-03 {
+  &:before {
+    content: $sp-thermometer-03; 
+  }
+}
+.sp-thermometer-cold {
+  &:before {
+    content: $sp-thermometer-cold; 
+  }
+}
+.sp-thermometer-warm {
+  &:before {
+    content: $sp-thermometer-warm; 
+  }
+}
+.sp-thumbs-down {
+  &:before {
+    content: $sp-thumbs-down; 
+  }
+}
+.sp-thumbs-up {
+  &:before {
+    content: $sp-thumbs-up; 
+  }
+}
+.sp-ticket-01 {
+  &:before {
+    content: $sp-ticket-01; 
+  }
+}
+.sp-ticket-02 {
+  &:before {
+    content: $sp-ticket-02; 
+  }
+}
+.sp-toggle-01-left {
+  &:before {
+    content: $sp-toggle-01-left; 
+  }
+}
+.sp-toggle-01-right {
+  &:before {
+    content: $sp-toggle-01-right; 
+  }
+}
+.sp-toggle-02-left {
+  &:before {
+    content: $sp-toggle-02-left; 
+  }
+}
+.sp-toggle-02-right {
+  &:before {
+    content: $sp-toggle-02-right; 
+  }
+}
+.sp-toggle-03-left {
+  &:before {
+    content: $sp-toggle-03-left; 
+  }
+}
+.sp-toggle-03-right {
+  &:before {
+    content: $sp-toggle-03-right; 
+  }
+}
+.sp-tool-01 {
+  &:before {
+    content: $sp-tool-01; 
+  }
+}
+.sp-tool-02 {
+  &:before {
+    content: $sp-tool-02; 
+  }
+}
+.sp-train {
+  &:before {
+    content: $sp-train; 
+  }
+}
+.sp-tram {
+  &:before {
+    content: $sp-tram; 
+  }
+}
+.sp-transform {
+  &:before {
+    content: $sp-transform; 
+  }
+}
+.sp-translate-01 {
+  &:before {
+    content: $sp-translate-01; 
+  }
+}
+.sp-translate-02 {
+  &:before {
+    content: $sp-translate-02; 
+  }
+}
+.sp-trash-01 {
+  &:before {
+    content: $sp-trash-01; 
+  }
+}
+.sp-trash-02 {
+  &:before {
+    content: $sp-trash-02; 
+  }
+}
+.sp-trash-03 {
+  &:before {
+    content: $sp-trash-03; 
+  }
+}
+.sp-trash-04 {
+  &:before {
+    content: $sp-trash-04; 
+  }
+}
+.sp-trend-down-01 {
+  &:before {
+    content: $sp-trend-down-01; 
+  }
+}
+.sp-trend-down-02 {
+  &:before {
+    content: $sp-trend-down-02; 
+  }
+}
+.sp-trend-up-01 {
+  &:before {
+    content: $sp-trend-up-01; 
+  }
+}
+.sp-trend-up-02 {
+  &:before {
+    content: $sp-trend-up-02; 
+  }
+}
+.sp-triangle {
+  &:before {
+    content: $sp-triangle; 
+  }
+}
+.sp-trophy-01 {
+  &:before {
+    content: $sp-trophy-01; 
+  }
+}
+.sp-trophy-02 {
+  &:before {
+    content: $sp-trophy-02; 
+  }
+}
+.sp-truck-01 {
+  &:before {
+    content: $sp-truck-01; 
+  }
+}
+.sp-truck-02 {
+  &:before {
+    content: $sp-truck-02; 
+  }
+}
+.sp-tv-01 {
+  &:before {
+    content: $sp-tv-01; 
+  }
+}
+.sp-tv-02 {
+  &:before {
+    content: $sp-tv-02; 
+  }
+}
+.sp-tv-03 {
+  &:before {
+    content: $sp-tv-03; 
+  }
+}
+.sp-type-01 {
+  &:before {
+    content: $sp-type-01; 
+  }
+}
+.sp-type-02 {
+  &:before {
+    content: $sp-type-02; 
+  }
+}
+.sp-type-square {
+  &:before {
+    content: $sp-type-square; 
+  }
+}
+.sp-type-strikethrough-01 {
+  &:before {
+    content: $sp-type-strikethrough-01; 
+  }
+}
+.sp-type-strikethrough-02 {
+  &:before {
+    content: $sp-type-strikethrough-02; 
+  }
+}
+.sp-umbrella-01 {
+  &:before {
+    content: $sp-umbrella-01; 
+  }
+}
+.sp-umbrella-02 {
+  &:before {
+    content: $sp-umbrella-02; 
+  }
+}
+.sp-umbrella-03 {
+  &:before {
+    content: $sp-umbrella-03; 
+  }
+}
+.sp-underline-01 {
+  &:before {
+    content: $sp-underline-01; 
+  }
+}
+.sp-underline-02 {
+  &:before {
+    content: $sp-underline-02; 
+  }
+}
+.sp-underline-square {
+  &:before {
+    content: $sp-underline-square; 
+  }
+}
+.sp-upload-01 {
+  &:before {
+    content: $sp-upload-01; 
+  }
+}
+.sp-upload-02 {
+  &:before {
+    content: $sp-upload-02; 
+  }
+}
+.sp-upload-03 {
+  &:before {
+    content: $sp-upload-03; 
+  }
+}
+.sp-upload-04 {
+  &:before {
+    content: $sp-upload-04; 
+  }
+}
+.sp-upload-cloud-01 {
+  &:before {
+    content: $sp-upload-cloud-01; 
+  }
+}
+.sp-upload-cloud-02 {
+  &:before {
+    content: $sp-upload-cloud-02; 
+  }
+}
+.sp-usb-flash-drive {
+  &:before {
+    content: $sp-usb-flash-drive; 
+  }
+}
+.sp-user-01 {
+  &:before {
+    content: $sp-user-01; 
+  }
+}
+.sp-user-02 {
+  &:before {
+    content: $sp-user-02; 
+  }
+}
+.sp-user-03 {
+  &:before {
+    content: $sp-user-03; 
+  }
+}
+.sp-user-check-01 {
+  &:before {
+    content: $sp-user-check-01; 
+  }
+}
+.sp-user-check-02 {
+  &:before {
+    content: $sp-user-check-02; 
+  }
+}
+.sp-user-circle {
+  &:before {
+    content: $sp-user-circle; 
+  }
+}
+.sp-user-down-01 {
+  &:before {
+    content: $sp-user-down-01; 
+  }
+}
+.sp-user-down-02 {
+  &:before {
+    content: $sp-user-down-02; 
+  }
+}
+.sp-user-edit {
+  &:before {
+    content: $sp-user-edit; 
+  }
+}
+.sp-user-left-01 {
+  &:before {
+    content: $sp-user-left-01; 
+  }
+}
+.sp-user-left-02 {
+  &:before {
+    content: $sp-user-left-02; 
+  }
+}
+.sp-user-minus-01 {
+  &:before {
+    content: $sp-user-minus-01; 
+  }
+}
+.sp-user-minus-02 {
+  &:before {
+    content: $sp-user-minus-02; 
+  }
+}
+.sp-user-plus-01 {
+  &:before {
+    content: $sp-user-plus-01; 
+  }
+}
+.sp-user-plus-02 {
+  &:before {
+    content: $sp-user-plus-02; 
+  }
+}
+.sp-user-right-01 {
+  &:before {
+    content: $sp-user-right-01; 
+  }
+}
+.sp-user-right-02 {
+  &:before {
+    content: $sp-user-right-02; 
+  }
+}
+.sp-user-square {
+  &:before {
+    content: $sp-user-square; 
+  }
+}
+.sp-user-up-01 {
+  &:before {
+    content: $sp-user-up-01; 
+  }
+}
+.sp-user-up-02 {
+  &:before {
+    content: $sp-user-up-02; 
+  }
+}
+.sp-user-x-01 {
+  &:before {
+    content: $sp-user-x-01; 
+  }
+}
+.sp-user-x-02 {
+  &:before {
+    content: $sp-user-x-02; 
+  }
+}
+.sp-users-01 {
+  &:before {
+    content: $sp-users-01; 
+  }
+}
+.sp-users-02 {
+  &:before {
+    content: $sp-users-02; 
+  }
+}
+.sp-users-03 {
+  &:before {
+    content: $sp-users-03; 
+  }
+}
+.sp-users-check {
+  &:before {
+    content: $sp-users-check; 
+  }
+}
+.sp-users-down {
+  &:before {
+    content: $sp-users-down; 
+  }
+}
+.sp-users-edit {
+  &:before {
+    content: $sp-users-edit; 
+  }
+}
+.sp-users-left {
+  &:before {
+    content: $sp-users-left; 
+  }
+}
+.sp-users-minus {
+  &:before {
+    content: $sp-users-minus; 
+  }
+}
+.sp-users-plus {
+  &:before {
+    content: $sp-users-plus; 
+  }
+}
+.sp-users-right {
+  &:before {
+    content: $sp-users-right; 
+  }
+}
+.sp-users-up {
+  &:before {
+    content: $sp-users-up; 
+  }
+}
+.sp-users-x {
+  &:before {
+    content: $sp-users-x; 
+  }
+}
+.sp-variable {
+  &:before {
+    content: $sp-variable; 
+  }
+}
+.sp-video-recorder-off {
+  &:before {
+    content: $sp-video-recorder-off; 
+  }
+}
+.sp-video-recorder {
+  &:before {
+    content: $sp-video-recorder; 
+  }
+}
+.sp-virus {
+  &:before {
+    content: $sp-virus; 
+  }
+}
+.sp-voicemail {
+  &:before {
+    content: $sp-voicemail; 
+  }
+}
+.sp-volume-max {
+  &:before {
+    content: $sp-volume-max; 
+  }
+}
+.sp-volume-min {
+  &:before {
+    content: $sp-volume-min; 
+  }
+}
+.sp-volume-minus {
+  &:before {
+    content: $sp-volume-minus; 
+  }
+}
+.sp-volume-plus {
+  &:before {
+    content: $sp-volume-plus; 
+  }
+}
+.sp-volume-x {
+  &:before {
+    content: $sp-volume-x; 
+  }
+}
+.sp-wallet-01 {
+  &:before {
+    content: $sp-wallet-01; 
+  }
+}
+.sp-wallet-02 {
+  &:before {
+    content: $sp-wallet-02; 
+  }
+}
+.sp-wallet-03 {
+  &:before {
+    content: $sp-wallet-03; 
+  }
+}
+.sp-wallet-04 {
+  &:before {
+    content: $sp-wallet-04; 
+  }
+}
+.sp-wallet-05 {
+  &:before {
+    content: $sp-wallet-05; 
+  }
+}
+.sp-watch-circle {
+  &:before {
+    content: $sp-watch-circle; 
+  }
+}
+.sp-watch-square {
+  &:before {
+    content: $sp-watch-square; 
+  }
+}
+.sp-waves {
+  &:before {
+    content: $sp-waves; 
+  }
+}
+.sp-webcam-01 {
+  &:before {
+    content: $sp-webcam-01; 
+  }
+}
+.sp-webcam-02 {
+  &:before {
+    content: $sp-webcam-02; 
+  }
+}
+.sp-wifi-off {
+  &:before {
+    content: $sp-wifi-off; 
+  }
+}
+.sp-wifi {
+  &:before {
+    content: $sp-wifi; 
+  }
+}
+.sp-wind-01 {
+  &:before {
+    content: $sp-wind-01; 
+  }
+}
+.sp-wind-02 {
+  &:before {
+    content: $sp-wind-02; 
+  }
+}
+.sp-wind-03 {
+  &:before {
+    content: $sp-wind-03; 
+  }
+}
+.sp-x-circle {
+  &:before {
+    content: $sp-x-circle; 
+  }
+}
+.sp-x-close {
+  &:before {
+    content: $sp-x-close; 
+  }
+}
+.sp-x-square {
+  &:before {
+    content: $sp-x-square; 
+  }
+}
+.sp-x {
+  &:before {
+    content: $sp-x; 
+  }
+}
+.sp-youtube {
+  &:before {
+    content: $sp-youtube; 
+  }
+}
+.sp-zap-circle {
+  &:before {
+    content: $sp-zap-circle; 
+  }
+}
+.sp-zap-fast {
+  &:before {
+    content: $sp-zap-fast; 
+  }
+}
+.sp-zap-off {
+  &:before {
+    content: $sp-zap-off; 
+  }
+}
+.sp-zap-square {
+  &:before {
+    content: $sp-zap-square; 
+  }
+}
+.sp-zap {
+  &:before {
+    content: $sp-zap; 
+  }
+}
+.sp-zoom-in {
+  &:before {
+    content: $sp-zoom-in; 
+  }
+}
+.sp-zoom-out {
+  &:before {
+    content: $sp-zoom-out; 
+  }
+}
+
