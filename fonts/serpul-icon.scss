@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?f78btw');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?f78btw#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?f78btw') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?f78btw') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?f78btw##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hvu4hv');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hvu4hv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?hvu4hv') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?hvu4hv') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?hvu4hv##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -197,6 +197,11 @@
     content: $sp-annotation-dots; 
   }
 }
+.sp-annotation-heart {
+  &:before {
+    content: $sp-annotation-heart; 
+  }
+}
 .sp-annotation-info {
   &:before {
     content: $sp-annotation-info; 
@@ -225,6 +230,16 @@
 .sp-announcement-01 {
   &:before {
     content: $sp-announcement-01; 
+  }
+}
+.sp-announcement-02 {
+  &:before {
+    content: $sp-announcement-02; 
+  }
+}
+.sp-announcement-03 {
+  &:before {
+    content: $sp-announcement-03; 
   }
 }
 .sp-archive {
