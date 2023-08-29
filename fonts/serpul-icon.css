@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'serpul-icon';
-  src:  url('fonts/serpul-icon.eot?f78btw');
-  src:  url('fonts/serpul-icon.eot?f78btw#iefix') format('embedded-opentype'),
-    url('fonts/serpul-icon.ttf?f78btw') format('truetype'),
-    url('fonts/serpul-icon.woff?f78btw') format('woff'),
-    url('fonts/serpul-icon.svg?f78btw#serpul-icon') format('svg');
+  src:  url('serpul-icon.eot?f78btw');
+  src:  url('serpul-icon.eot?f78btw#iefix') format('embedded-opentype'),
+    url('serpul-icon.ttf?f78btw') format('truetype'),
+    url('serpul-icon.woff?f78btw') format('woff'),
+    url('serpul-icon.svg?f78btw#serpul-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
