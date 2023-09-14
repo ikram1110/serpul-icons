@@ -1,7 +1,11 @@
-Open *demo.html* to see a list of all the glyphs in your font along with their codes/ligatures.
+# Serpul Icons Dataset
 
-To use the generated font in desktop programs, you can install the TTF font. In order to copy the character associated with each icon, refer to the text box at the bottom right corner of each glyph in demo.html. The character inside this text box may be invisible; but it can still be copied. See this guide for more info: https://icomoon.io/#docs/local-fonts
+Icons dataset for PPOB Application
 
-You won't need any of the files located under the *demo-files* directory when including the generated font in your own projects.
+## Source
 
-You can import *fonts/serpul-icon.glyph.json* back to the IcoMoon app using the *Import Icons* button (or via Main Menu → Manage Projects) to retrieve your icon selection.
+We didn't create this icon from scratch; instead, we used a design from Figma by [Jordan Hughes](https://www.figma.com/@designer), which was also available for free. The link is provided below.
+
+What we did was select several icons that align with our company's business. We then converted these icons to SVG format and further transformed them into a font format using [IcoMoon](https://icomoon.io/).
+
+Figma Link : [❖ Untitled UI Icons – 1,100+ essential Figma icons](https://www.figma.com/community/file/1114001199549197320/%E2%9D%96-Untitled-UI-Icons-%E2%80%93-1%2C100%2B-essential-Figma-icons)
